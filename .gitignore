@@ -1,5 +1,4 @@
-# ⚠️ Never publish the answer key OR the generator (it can recreate the key). Keep these private.
-jury/
+# Maintainer-only generator (keeps the student repo clean). Not needed by students.
 build_dataset.py
 
 # Python

@@ -1,77 +1,19 @@
 {
-  "_comment": "PUBLIC sample: the expected matcher output for one update (REG-26-010, battery passport). Your pipeline should produce this shape for every non-noise update. The full key for all updates is held by the jury.",
-  "update_id": "REG-26-010",
-  "title": "Battery passport required for LMT and industrial (>2 kWh) batteries",
-  "affected": [
-    {
-      "partner_id": "P003",
-      "company": "CellCore Energy Sp. z o.o.",
-      "product_id": "P003-B",
-      "product": "IndusCell 2.5kWh Module",
-      "reason": "category 'battery_pack'; battery: industrial 2500Wh",
-      "deadline": "2027-02-18",
-      "severity": "high",
-      "channel": "sms"
-    },
-    {
-      "partner_id": "P013",
-      "company": "RideVolt Mobility GmbH",
-      "product_id": "P013-A",
-      "product": "e-Scooter Battery Pack 280Wh",
-      "reason": "category 'emobility_battery'; battery: lmt 280Wh",
-      "deadline": "2027-02-18",
-      "severity": "high",
-      "channel": "sms"
-    },
-    {
-      "partner_id": "P013",
-      "company": "RideVolt Mobility GmbH",
-      "product_id": "P013-B",
-      "product": "eBike Battery 504Wh",
-      "reason": "category 'emobility_battery'; battery: lmt 504Wh",
-      "deadline": "2027-02-18",
-      "severity": "high",
-      "channel": "sms"
-    },
-    {
-      "partner_id": "P021",
-      "company": "NomadPower Outdoor AB",
-      "product_id": "P021-B",
-      "product": "BaseCell 2.0kWh Industrial",
-      "reason": "category 'battery_pack'; battery: industrial 2048Wh",
-      "deadline": "2027-02-18",
-      "severity": "high",
-      "channel": "sms"
-    }
-  ],
-  "near_misses_explained": [
-    {
-      "partner_id": "P003",
-      "product_id": "P003-A",
-      "product": "PowerBank 20k Portable",
-      "failed_dimension": "attribute",
-      "why_not": "category in scope but attributes are out of scope (battery=portable 74Wh, radio=False, connector=usb_c, use=consumer)"
-    },
-    {
-      "partner_id": "P003",
-      "product_id": "P003-C",
-      "product": "CoinCell CR2032 10-pack",
-      "failed_dimension": "attribute",
-      "why_not": "category in scope but attributes are out of scope (battery=button_cell 0.5Wh, radio=False, connector=none, use=consumer)"
-    },
-    {
-      "partner_id": "P021",
-      "product_id": "P021-A",
-      "product": "TrailCell 512 Power Station",
-      "failed_dimension": "attribute",
-      "why_not": "category in scope but attributes are out of scope (battery=portable 512Wh, radio=False, connector=usb_c, use=consumer)"
-    },
-    {
-      "partner_id": "P021",
-      "product_id": "P021-C",
-      "product": "PocketCell 99Wh",
-      "failed_dimension": "attribute",
-      "why_not": "category in scope but attributes are out of scope (battery=portable 99Wh, radio=False, connector=usb_c, use=consumer)"
-    }
-  ]
+  "_comment": "Example output shape for ONE finding. Your agent should emit a record like this for every gap it detects when it assesses a company against a current regulatory requirement. Cite the source you used. Swap in your own Twilio test number for the alert.",
+  "company": "RideVolt Mobility GmbH",
+  "partner_id": "P013",
+  "product_id": "P013-A",
+  "product": "e-Scooter Battery Pack 280Wh",
+  "regulation": "EU Battery Regulation (EU) 2023/1542 - battery passport (Art. 77)",
+  "requirement": "Light-means-of-transport (LMT) batteries must carry a digital battery passport.",
+  "source_url": "https://eur-lex.europa.eu/eli/reg/2023/1542/oj",
+  "gap": "LMT e-scooter battery is sold in the EU with no battery passport / data carrier.",
+  "deadline": "2027-02-18",
+  "severity": "high",
+  "recommended_action": "Create the battery passport (QR + data carrier) and link it before the deadline.",
+  "alert": {
+    "channel": "sms",
+    "to": "<your Twilio test number>",
+    "message": "RideVolt: your e-Scooter Battery Pack 280Wh needs an EU battery passport by 18 Feb 2027 (Reg 2023/1542). Set up the QR/data carrier. Source: eur-lex.europa.eu"
+  }
 }

@@ -2,9 +2,15 @@
 """
 starter.py - a runnable scaffold for the Regulatory Radar challenge.
 
-It does the boring parts for you (loading the data) and gives you a NAIVE baseline matcher to
-improve. The baseline deliberately ignores markets-detail, attribute conditions, exclusions, noise
-and duplicates - so it OVER-FIRES. Your job is to make it smart. Search for "TODO".
+The loop you build:
+    1. FIND   current EU requirements from live sources   (see SOURCES.md)   -> fetch_requirements()
+    2. UNDERSTAND each requirement (use IBM Bob)                              -> (your extraction)
+    3. ASSESS  the portfolio for gaps                                         -> find_gaps()
+    4. ALERT   each company about its gaps (Twilio)                           -> make_alert()
+
+This scaffold runs OFFLINE: fetch_requirements() falls back to the local sample feed so you have
+something to develop against immediately. Your real job is to make step 1 pull LIVE data and step 3
+genuinely assess compliance. Search for "TODO".
 
 Run:  python3 starter.py
 """
@@ -14,18 +20,13 @@ from pathlib import Path
 
 HERE = Path(__file__).resolve().parent
 
-# ---- Step 1: Monitor (load the feed) --------------------------------------
+# ---- the portfolio: your fixed dataset --------------------------------------
 partners = json.loads((HERE / "partners.json").read_text())["partners"]
-updates  = json.loads((HERE / "regulatory_updates.json").read_text())["updates"]
-sample   = json.loads((HERE / "sample_expected_output.json").read_text())
-
 products = [{**pr, "partner_id": pt["partner_id"], "company": pt["company"],
-            "contact": pt["contact"]}
+            "contact": pt["contact"], "compliance_status": pt.get("compliance_status")}
            for pt in partners for pr in pt["products"]]
+print(f"Loaded {len(partners)} companies, {len(products)} products.\n")
 
-print(f"Loaded {len(partners)} partners, {len(products)} products, {len(updates)} updates.\n")
-
-# ---- helpers ---------------------------------------------------------------
 EU_MEMBERS = {"AT","BE","BG","HR","CY","CZ","DK","EE","FI","FR","DE","GR","HU","IE",
               "IT","LV","LT","LU","MT","NL","PL","PT","RO","SK","SI","ES","SE"}
 
@@ -35,72 +36,92 @@ def expand(markets):
         s.update(EU_MEMBERS if m == "EU" else {m})
     return s
 
-def market_overlap(prod_markets, reg_markets):
-    return bool(expand(prod_markets) & expand(reg_markets))
+def market_overlap(a, b):
+    return bool(expand(a) & expand(b))
 
-# ---- Step 2 + 3: Understand + Match (NAIVE baseline - improve me!) ---------
-def naive_affects(update, product):
-    """A weak baseline. Returns True if the update might affect the product.
+# ---- Step 1: FIND current requirements --------------------------------------
+def fetch_requirements():
+    """Return a list of current requirements: {regulation, requirement, categories,
+    substances, markets, deadline, source_url}.
 
-    It only checks category + substance + market. That is enough for a beginner pass, but it
-    OVER-FIRES because it ignores:
-      TODO(1): attribute conditions - e.g. the battery passport only covers LMT/industrial
-               batteries, not portable power banks. Read the `summary`/`conditions` (use IBM Bob!)
-               and check battery_type / has_radio / connector / intended_use / packaging.
-      TODO(2): exclusions - e.g. GPSR does not cover medical or industrial-only equipment.
-      TODO(3): noise - some updates are from unrelated domains and should match no one.
-      TODO(4): duplicates - skip updates that only restate an earlier one (see the `corrects` field).
+    TODO: replace this with LIVE retrieval from the sources in SOURCES.md
+          (EUR-Lex / ECHA / EPREL / national registers). Prefer official APIs/RSS,
+          respect rate limits, and keep the source_url for every requirement.
+    For now it FALLS BACK to the offline sample feed so the scaffold runs.
     """
-    scope = update["scope"]
-    cats = scope.get("categories", "all")
-    if isinstance(cats, list) and product["category"] not in cats:
-        return False
-    subs = scope.get("substances", [])
-    if subs and not (set(product["substances"]) & set(subs)):
-        return False
-    if not market_overlap(product["markets"], scope.get("markets", ["EU"])):
-        return False
-    return True
+    feed = json.loads((HERE / "regulatory_updates.json").read_text())["updates"]
+    reqs = []
+    for u in feed:
+        sc = u.get("scope", {})
+        reqs.append({
+            "regulation": u.get("regulation_family"),
+            "title": u.get("title"),
+            "requirement": u.get("summary"),
+            "categories": sc.get("categories", "all"),
+            "substances": sc.get("substances", []),
+            "markets": sc.get("markets", ["EU"]),
+            "deadline": u.get("deadline_date"),
+            "severity": u.get("severity"),
+            "source_url": "(offline sample feed - replace with the live source URL)",
+            "corrects": u.get("corrects"),
+        })
+    print(f"[fetch_requirements] OFFLINE FALLBACK: loaded {len(reqs)} sample requirements.")
+    print("  -> Make this pull LIVE rules from SOURCES.md for the real challenge.\n")
+    return reqs
 
-def run_matcher():
-    results = {}
-    for upd in updates:
-        hits = [p for p in products if naive_affects(upd, p)]
-        results[upd["update_id"]] = hits
-    return results
+# ---- Step 3: ASSESS the portfolio for gaps ----------------------------------
+def find_gaps(product, requirements):
+    """Naive baseline: flag a requirement as a POSSIBLE gap when it plausibly applies to the product.
 
-# ---- Step 4: Alert (stub - prints instead of sending) ----------------------
-def make_alert(update, product):
-    return (f"[{product['contact']['preferred_channel'].upper()} -> {product['contact']['email']}] "
-            f"{product['company']}: '{update['title']}' affects your '{product['product_id']}'. "
-            f"Deadline {update.get('deadline_date')}. Action: {update.get('action_required','review')}.")
-    # TODO: replace this with a real Twilio send to YOUR OWN test number/email.
+    It only checks market + category + substance, and cannot tell whether the company has ALREADY
+    complied. Improve it:
+      TODO(1): check attribute conditions (battery type/capacity, has_radio, connector, intended use,
+               packaging) so you stop over-firing on look-alikes.
+      TODO(2): skip irrelevant-domain requirements and de-duplicate (see the `corrects` field).
+      TODO(3): actually decide compliance - use `compliance_status` where present, and reason about
+               the rest instead of assuming every applicable rule is an open gap.
+    """
+    gaps = []
+    for r in requirements:
+        cats = r["categories"]
+        if isinstance(cats, list) and product["category"] not in cats:
+            continue
+        if r["substances"] and not (set(product["substances"]) & set(r["substances"])):
+            continue
+        if not market_overlap(product["markets"], r["markets"]):
+            continue
+        gaps.append(r)
+    return gaps
 
-# ---- self-check against the one public worked example ----------------------
-def self_check():
-    res = run_matcher()
-    got = sorted(p["product_id"] for p in res.get(sample["update_id"], []))
-    want = sorted(a["product_id"] for a in sample["affected"])
-    tp = set(got) & set(want)
-    precision = len(tp) / len(got) if got else 0.0
-    recall = len(tp) / len(want) if want else 0.0
-    print(f"Self-check on {sample['update_id']} ({sample['title']}):")
-    print(f"  expected (key): {want}")
-    print(f"  baseline got:   {got}")
-    print(f"  precision={precision:.2f}  recall={recall:.2f}")
-    if precision < 1.0:
-        extra = sorted(set(got) - set(want))
-        print(f"  -> baseline OVER-FIRES on {extra}: these are in the right category but the wrong")
-        print(f"     battery type. Fix TODO(1) by checking attribute conditions. That is the challenge.")
-    print()
+# ---- Step 4: ALERT ----------------------------------------------------------
+def make_alert(product, finding):
+    ch = product["contact"]["preferred_channel"].upper()
+    return (f"[{ch} -> {product['contact']['email']}] {product['company']}: "
+            f"'{finding['title']}' may apply to your '{product['product_id']}'. "
+            f"Deadline {finding['deadline']}. Source: {finding['source_url']}")
+    # TODO: replace with a real Twilio send to YOUR OWN test number/email.
 
 if __name__ == "__main__":
-    res = run_matcher()
-    total = sum(len(v) for v in res.values())
-    print(f"Naive baseline produced {total} (update, product) matches across {len(updates)} updates.")
-    print("(Expect this to be too high - the baseline over-fires. Make it smarter.)\n")
-    self_check()
-    print("Example alert that WOULD be sent (wire this to Twilio with YOUR test contact):")
-    demo = next((p for p in res[sample["update_id"]]), None)
-    if demo:
-        print("  " + make_alert(updates and next(u for u in updates if u["update_id"] == sample["update_id"]), demo))
+    reqs = fetch_requirements()
+
+    # The seeded companies have concrete, verifiable current gaps - guaranteed demo wins.
+    print("Companies with explicit known gaps (verify these against live sources):")
+    for pt in partners:
+        cs = pt.get("compliance_status")
+        if cs and cs.get("known_gaps"):
+            for g in cs["known_gaps"]:
+                print(f"  - {pt['company']}: {g}")
+    print()
+
+    # Naive baseline assessment across the portfolio.
+    total = sum(len(find_gaps(p, reqs)) for p in products)
+    print(f"Naive baseline flagged {total} possible (product, requirement) pairs.")
+    print("(Too many - it assumes every applicable rule is an open gap. Make it real: TODO 1-3.)\n")
+
+    # One example alert.
+    for p in products:
+        g = find_gaps(p, reqs)
+        if g:
+            print("Example alert (wire this to Twilio with YOUR test contact):")
+            print("  " + make_alert(p, g[0]))
+            break

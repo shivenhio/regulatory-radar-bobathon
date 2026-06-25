@@ -503,7 +503,16 @@
             "RoHS"
           ]
         }
-      ]
+      ],
+      "compliance_status": {
+        "certs_held": [
+          "CE",
+          "RED"
+        ],
+        "known_gaps": [
+          "PulseBand wrist strap uses a PFAS/PFHxA water-repellent coating now restricted under REACH"
+        ]
+      }
     },
     {
       "partner_id": "P007",
@@ -666,7 +675,17 @@
             "RoHS"
           ]
         }
-      ]
+      ],
+      "compliance_status": {
+        "certs_held": [
+          "CE",
+          "RoHS"
+        ],
+        "known_gaps": [
+          "RoboPup soft plastic contains DEHP above the tightened toy chemical limit",
+          "SingAlong button-cell compartment is not secured against child access (GPSR)"
+        ]
+      }
     },
     {
       "partner_id": "P009",
@@ -830,7 +849,17 @@
             "RoHS"
           ]
         }
-      ]
+      ],
+      "compliance_status": {
+        "certs_held": [
+          "CE",
+          "RoHS",
+          "Energy label"
+        ],
+        "known_gaps": [
+          "Legacy CCFL spare panel still contains mercury (RoHS restricted substance)"
+        ]
+      }
     },
     {
       "partner_id": "P011",
@@ -1037,7 +1066,16 @@
             "WEEE"
           ]
         }
-      ]
+      ],
+      "compliance_status": {
+        "certs_held": [
+          "CE",
+          "UN38.3"
+        ],
+        "known_gaps": [
+          "e-Scooter LMT battery ships without an EU battery passport / data carrier"
+        ]
+      }
     },
     {
       "partner_id": "P014",
@@ -1734,7 +1772,16 @@
             "RoHS"
           ]
         }
-      ]
+      ],
+      "compliance_status": {
+        "certs_held": [
+          "CE"
+        ],
+        "known_gaps": [
+          "LittleView baby monitor still uses a micro-USB charging port (USB-C common-charger rule)",
+          "internet-connected device with no documented RED cybersecurity (EN 18031) conformity"
+        ]
+      }
     }
   ]
 }

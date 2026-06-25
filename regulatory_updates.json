@@ -1,4 +1,5 @@
 {
+  "_comment": "OFFLINE SAMPLE / FALLBACK feed. The real task is to pull CURRENT requirements from live sources (see SOURCES.md). Use this only to develop offline or if live scraping fails on the day.",
   "updates": [
     {
       "update_id": "REG-26-001",
