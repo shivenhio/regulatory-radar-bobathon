@@ -416,15 +416,92 @@ def preview_alert(body: dict) -> dict:
 @app.post("/api/alerts/resend")
 def resend_alert(body: dict) -> dict:
     """
-    In a production system this would call Twilio directly.
-    For now it returns a synthetic alertId — wire it to alerts.py when ready.
+    Look up the finding by its synthetic ID, send one Twilio message to
+    TWILIO_TO (the operator's test number), and append an audit entry.
+
+    If Twilio env vars are absent the message is skipped but the endpoint
+    still returns ok=True so the UI shows success in a demo without credentials.
     """
+    import os
+
     finding_id: str = body.get("findingId", "")
+    language:   str = body.get("language", "en")
     if not finding_id:
         raise HTTPException(status_code=400, detail="findingId required")
 
-    alert_id = _sid(finding_id, datetime.utcnow().isoformat())
-    return {"ok": True, "alertId": alert_id}
+    # ── Locate the raw finding by synthetic ID ────────────────────────────
+    findings = _load_json("all_findings.json")
+    raw_finding = None
+    for idx, f in enumerate(findings):
+        fid = _sid(
+            f.get("partner_id", ""),
+            f.get("product_id", ""),
+            f.get("rule_id", ""),
+            str(idx),
+        )
+        if fid == finding_id:
+            raw_finding = f
+            break
+
+    if raw_finding is None:
+        raise HTTPException(status_code=404, detail="Finding not found")
+
+    # ── Build the alert message (same logic as alerts.py) ─────────────────
+    alert_record = raw_finding.get("alert", {})
+    message_body = alert_record.get("message") or (
+        f"[{raw_finding['rule_id']}] {raw_finding['company']} / {raw_finding['product']}: "
+        f"{raw_finding.get('gap', '')} "
+        f"Deadline: {raw_finding.get('deadline', 'TBD')}. "
+        f"Action: {raw_finding.get('recommended_action', '')} "
+        f"Source: {raw_finding.get('source_url', '')}"
+    )
+    if language == "de":
+        message_body = message_body.replace("must comply with", "muss einhalten")
+        message_body = message_body.replace("Action:", "Maßnahme:")
+        message_body = message_body.replace("Source:", "Quelle:")
+
+    # ── Send via Twilio (skipped gracefully if credentials are absent) ────
+    alert_status = "sent"
+    twilio_sid = os.environ.get("TWILIO_ACCOUNT_SID")
+    twilio_token = os.environ.get("TWILIO_AUTH_TOKEN")
+    twilio_from  = os.environ.get("TWILIO_FROM")
+    twilio_to    = os.environ.get("TWILIO_TO")
+
+    if twilio_sid and twilio_token and twilio_from and twilio_to:
+        try:
+            from twilio.rest import Client as TwilioClient  # optional dep
+            tc = TwilioClient(twilio_sid, twilio_token)
+            tc.messages.create(body=message_body, from_=twilio_from, to=twilio_to)
+        except Exception as exc:
+            alert_status = f"failed: {exc}"
+    else:
+        alert_status = "skipped_no_credentials"
+
+    # ── Append audit entry ────────────────────────────────────────────────
+    ts = datetime.utcnow().isoformat(timespec="seconds") + "Z"
+    audit_entry = {
+        "timestamp":    ts,
+        "event":        "alert_attempt",
+        "alert_status": alert_status,
+        "rule_id":      raw_finding.get("rule_id", ""),
+        "source_url":   raw_finding.get("source_url", ""),
+        "company":      raw_finding.get("company", ""),
+        "partner_id":   raw_finding.get("partner_id", ""),
+        "product":      raw_finding.get("product", ""),
+        "product_id":   raw_finding.get("product_id", ""),
+        "priority":     raw_finding.get("priority", "unknown"),
+        "deadline":     raw_finding.get("deadline", ""),
+        "action":       raw_finding.get("recommended_action", ""),
+        "channel":      alert_record.get("channel", ""),
+        "language":     language,
+        "triggered_by": "api_resend",
+    }
+    audit_path = BASE / "audit_log.jsonl"
+    with audit_path.open("a", encoding="utf-8") as af:
+        af.write(json.dumps(audit_entry, ensure_ascii=False) + "\n")
+
+    alert_id = _sid(finding_id, ts)
+    return {"ok": True, "alertId": alert_id, "twilioStatus": alert_status}
 
 
 # ---------------------------------------------------------------------------

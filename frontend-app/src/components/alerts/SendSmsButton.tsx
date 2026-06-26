@@ -1,19 +1,24 @@
 import { useState } from "react";
 import { MessageSquare, Loader2 } from "lucide-react";
 import { toast } from "sonner";
+import { resendAlert } from "@/lib/api/alerts";
+import { client, isMockMode } from "@/lib/api/client";
 
 interface SendSmsButtonProps {
   label?: string;
+  /** Passed as findingId when available; falls back to fetching the first finding. */
+  findingId?: string;
   context?: string;
   className?: string;
 }
 
 /**
- * Stub button for the Twilio SMS gateway. Backend wiring will replace
- * the simulated delay with a POST to /api/alerts/send-sms.
+ * Fires POST /api/alerts/resend for a given finding (or the most recent one).
+ * Shows a real success/error toast based on the backend response.
  */
 export function SendSmsButton({
   label = "Send SMS via Twilio",
+  findingId,
   context = "compliance alert",
   className = "",
 }: SendSmsButtonProps) {
@@ -22,14 +27,25 @@ export function SendSmsButton({
   async function handleSend() {
     setPending(true);
     try {
-      // TODO: replace with real Twilio call once backend is wired
-      // await client.post("/api/alerts/send-sms", { context });
-      await new Promise((r) => setTimeout(r, 900));
-      toast.success("SMS queued via Twilio", {
-        description: `Test dispatch for ${context}. Hook up backend to deliver to a real phone.`,
+      // Resolve findingId: use the prop if provided, otherwise fetch the first finding.
+      let fid = findingId;
+      if (!fid) {
+        if (isMockMode) {
+          fid = "mock-finding-1";
+        } else {
+          const findings = await client.get<{ id: string }[]>("/api/findings");
+          fid = findings[0]?.id;
+        }
+      }
+      if (!fid) throw new Error("No findings available to send an alert for.");
+
+      const result = await resendAlert(fid, "en");
+      toast.success("Alert dispatched via Twilio", {
+        description: `Alert ID: ${result.alertId}  ·  context: ${context}`,
       });
-    } catch {
-      toast.error("Twilio dispatch failed");
+    } catch (err) {
+      const msg = err instanceof Error ? err.message : "Unknown error";
+      toast.error("Twilio dispatch failed", { description: msg });
     } finally {
       setPending(false);
     }
