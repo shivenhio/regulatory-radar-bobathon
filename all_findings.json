@@ -1,0 +1,876 @@
+[
+  {
+    "rule_id": "BATT-2023-ART77-LMT",
+    "company": "RideVolt Mobility GmbH",
+    "partner_id": "P013",
+    "product_id": "P013-A",
+    "product": "e-Scooter Battery Pack 280Wh",
+    "regulation": "Reg (EU) 32023R1542 \u2014 Article 77",
+    "requirement": "Light-means-of-transport (LMT) batteries placed on the EU market must carry a digital battery passport accessible via a QR code or other data carrier, containing chemistry, capacity, carbon footprint, and lifecycle data.",
+    "source_url": "https://eur-lex.europa.eu/eli/reg/2023/1542/oj",
+    "gap": "'e-Scooter Battery Pack 280Wh' is sold in a market covered by BATT-2023-ART77-LMT but the required compliance has not been demonstrated.",
+    "deadline": "2027-02-18",
+    "severity": "high",
+    "recommended_action": "Review Article 77 obligations and obtain or demonstrate compliance before 2027-02-18.",
+    "alert": {
+      "channel": "sms",
+      "to": "+49 711 001313",
+      "message": "RideVolt Mobility GmbH: your e-Scooter Battery Pack 280Wh must comply with Reg (EU) 32023R1542 \u2014 Article 77 by 2027-02-18. Source: https://eur-lex.europa.eu/eli/reg/2023/1542/oj"
+    }
+  },
+  {
+    "rule_id": "BATT-2023-ART77-LMT",
+    "company": "RideVolt Mobility GmbH",
+    "partner_id": "P013",
+    "product_id": "P013-B",
+    "product": "eBike Battery 504Wh",
+    "regulation": "Reg (EU) 32023R1542 \u2014 Article 77",
+    "requirement": "Light-means-of-transport (LMT) batteries placed on the EU market must carry a digital battery passport accessible via a QR code or other data carrier, containing chemistry, capacity, carbon footprint, and lifecycle data.",
+    "source_url": "https://eur-lex.europa.eu/eli/reg/2023/1542/oj",
+    "gap": "'eBike Battery 504Wh' is sold in a market covered by BATT-2023-ART77-LMT but the required compliance has not been demonstrated.",
+    "deadline": "2027-02-18",
+    "severity": "high",
+    "recommended_action": "Review Article 77 obligations and obtain or demonstrate compliance before 2027-02-18.",
+    "alert": {
+      "channel": "sms",
+      "to": "+49 711 001313",
+      "message": "RideVolt Mobility GmbH: your eBike Battery 504Wh must comply with Reg (EU) 32023R1542 \u2014 Article 77 by 2027-02-18. Source: https://eur-lex.europa.eu/eli/reg/2023/1542/oj"
+    }
+  },
+  {
+    "rule_id": "PPWR-2025-ART7-RECYCLED-CONTENT",
+    "company": "LumaNord Lighting GmbH",
+    "partner_id": "P001",
+    "product_id": "P001-B",
+    "product": "FlexGlow RGB Strip 5m",
+    "regulation": "Reg (EU) 32025R0040 \u2014 Article 7",
+    "requirement": "Plastic packaging placed on the EU market must meet mandatory minimum recycled-content targets. For contact-sensitive plastic packaging (e.g. consumer electronics retail packaging) the initial target is 10 % recycled content by 2030, rising to 50 % by 2040. Producers must declare recycled content on the packaging or a technical file available on request.",
+    "source_url": "https://eur-lex.europa.eu/eli/reg/2025/40/oj",
+    "gap": "'FlexGlow RGB Strip 5m' is sold in a market covered by PPWR-2025-ART7-RECYCLED-CONTENT but the required compliance has not been demonstrated.",
+    "deadline": "2030-01-01",
+    "severity": "high",
+    "recommended_action": "Review Article 7 obligations and obtain or demonstrate compliance before 2030-01-01.",
+    "alert": {
+      "channel": "email",
+      "to": "+49 7131 000101",
+      "message": "LumaNord Lighting GmbH: your FlexGlow RGB Strip 5m must comply with Reg (EU) 32025R0040 \u2014 Article 7 by 2030-01-01. Source: https://eur-lex.europa.eu/eli/reg/2025/40/oj"
+    }
+  },
+  {
+    "rule_id": "PPWR-2025-ART7-RECYCLED-CONTENT",
+    "company": "CellCore Energy Sp. z o.o.",
+    "partner_id": "P003",
+    "product_id": "P003-C",
+    "product": "CoinCell CR2032 10-pack",
+    "regulation": "Reg (EU) 32025R0040 \u2014 Article 7",
+    "requirement": "Plastic packaging placed on the EU market must meet mandatory minimum recycled-content targets. For contact-sensitive plastic packaging (e.g. consumer electronics retail packaging) the initial target is 10 % recycled content by 2030, rising to 50 % by 2040. Producers must declare recycled content on the packaging or a technical file available on request.",
+    "source_url": "https://eur-lex.europa.eu/eli/reg/2025/40/oj",
+    "gap": "'CoinCell CR2032 10-pack' is sold in a market covered by PPWR-2025-ART7-RECYCLED-CONTENT but the required compliance has not been demonstrated.",
+    "deadline": "2030-01-01",
+    "severity": "high",
+    "recommended_action": "Review Article 7 obligations and obtain or demonstrate compliance before 2030-01-01.",
+    "alert": {
+      "channel": "sms",
+      "to": "+48 22 0000303",
+      "message": "CellCore Energy Sp. z o.o.: your CoinCell CR2032 10-pack must comply with Reg (EU) 32025R0040 \u2014 Article 7 by 2030-01-01. Source: https://eur-lex.europa.eu/eli/reg/2025/40/oj"
+    }
+  },
+  {
+    "rule_id": "PPWR-2025-ART7-RECYCLED-CONTENT",
+    "company": "PlayBright Toys S.r.l.",
+    "partner_id": "P008",
+    "product_id": "P008-A",
+    "product": "RoboPup Interactive Toy",
+    "regulation": "Reg (EU) 32025R0040 \u2014 Article 7",
+    "requirement": "Plastic packaging placed on the EU market must meet mandatory minimum recycled-content targets. For contact-sensitive plastic packaging (e.g. consumer electronics retail packaging) the initial target is 10 % recycled content by 2030, rising to 50 % by 2040. Producers must declare recycled content on the packaging or a technical file available on request.",
+    "source_url": "https://eur-lex.europa.eu/eli/reg/2025/40/oj",
+    "gap": "'RoboPup Interactive Toy' is sold in a market covered by PPWR-2025-ART7-RECYCLED-CONTENT but the required compliance has not been demonstrated.",
+    "deadline": "2030-01-01",
+    "severity": "high",
+    "recommended_action": "Review Article 7 obligations and obtain or demonstrate compliance before 2030-01-01.",
+    "alert": {
+      "channel": "email",
+      "to": "+39 02 0000808",
+      "message": "PlayBright Toys S.r.l.: your RoboPup Interactive Toy must comply with Reg (EU) 32025R0040 \u2014 Article 7 by 2030-01-01. Source: https://eur-lex.europa.eu/eli/reg/2025/40/oj"
+    }
+  },
+  {
+    "rule_id": "PPWR-2025-ART7-RECYCLED-CONTENT",
+    "company": "CableMax Connect S.L.",
+    "partner_id": "P009",
+    "product_id": "P009-A",
+    "product": "UltraLink USB-C Cable 2m",
+    "regulation": "Reg (EU) 32025R0040 \u2014 Article 7",
+    "requirement": "Plastic packaging placed on the EU market must meet mandatory minimum recycled-content targets. For contact-sensitive plastic packaging (e.g. consumer electronics retail packaging) the initial target is 10 % recycled content by 2030, rising to 50 % by 2040. Producers must declare recycled content on the packaging or a technical file available on request.",
+    "source_url": "https://eur-lex.europa.eu/eli/reg/2025/40/oj",
+    "gap": "'UltraLink USB-C Cable 2m' is sold in a market covered by PPWR-2025-ART7-RECYCLED-CONTENT but the required compliance has not been demonstrated.",
+    "deadline": "2030-01-01",
+    "severity": "high",
+    "recommended_action": "Review Article 7 obligations and obtain or demonstrate compliance before 2030-01-01.",
+    "alert": {
+      "channel": "email",
+      "to": "+34 91 0000909",
+      "message": "CableMax Connect S.L.: your UltraLink USB-C Cable 2m must comply with Reg (EU) 32025R0040 \u2014 Article 7 by 2030-01-01. Source: https://eur-lex.europa.eu/eli/reg/2025/40/oj"
+    }
+  },
+  {
+    "rule_id": "PPWR-2025-ART7-RECYCLED-CONTENT",
+    "company": "BrewEasy Appliances S.r.l.",
+    "partner_id": "P015",
+    "product_id": "P015-A",
+    "product": "QuickBoil Kettle 1.7L",
+    "regulation": "Reg (EU) 32025R0040 \u2014 Article 7",
+    "requirement": "Plastic packaging placed on the EU market must meet mandatory minimum recycled-content targets. For contact-sensitive plastic packaging (e.g. consumer electronics retail packaging) the initial target is 10 % recycled content by 2030, rising to 50 % by 2040. Producers must declare recycled content on the packaging or a technical file available on request.",
+    "source_url": "https://eur-lex.europa.eu/eli/reg/2025/40/oj",
+    "gap": "'QuickBoil Kettle 1.7L' is sold in a market covered by PPWR-2025-ART7-RECYCLED-CONTENT but the required compliance has not been demonstrated.",
+    "deadline": "2030-01-01",
+    "severity": "high",
+    "recommended_action": "Review Article 7 obligations and obtain or demonstrate compliance before 2030-01-01.",
+    "alert": {
+      "channel": "email",
+      "to": "+39 06 001515",
+      "message": "BrewEasy Appliances S.r.l.: your QuickBoil Kettle 1.7L must comply with Reg (EU) 32025R0040 \u2014 Article 7 by 2030-01-01. Source: https://eur-lex.europa.eu/eli/reg/2025/40/oj"
+    }
+  },
+  {
+    "rule_id": "PPWR-2025-ART7-RECYCLED-CONTENT",
+    "company": "PureAir Devices BV",
+    "partner_id": "P018",
+    "product_id": "P018-A",
+    "product": "FreshFlow Air Purifier",
+    "regulation": "Reg (EU) 32025R0040 \u2014 Article 7",
+    "requirement": "Plastic packaging placed on the EU market must meet mandatory minimum recycled-content targets. For contact-sensitive plastic packaging (e.g. consumer electronics retail packaging) the initial target is 10 % recycled content by 2030, rising to 50 % by 2040. Producers must declare recycled content on the packaging or a technical file available on request.",
+    "source_url": "https://eur-lex.europa.eu/eli/reg/2025/40/oj",
+    "gap": "'FreshFlow Air Purifier' is sold in a market covered by PPWR-2025-ART7-RECYCLED-CONTENT but the required compliance has not been demonstrated.",
+    "deadline": "2030-01-01",
+    "severity": "high",
+    "recommended_action": "Review Article 7 obligations and obtain or demonstrate compliance before 2030-01-01.",
+    "alert": {
+      "channel": "email",
+      "to": "+31 70 001818",
+      "message": "PureAir Devices BV: your FreshFlow Air Purifier must comply with Reg (EU) 32025R0040 \u2014 Article 7 by 2030-01-01. Source: https://eur-lex.europa.eu/eli/reg/2025/40/oj"
+    }
+  },
+  {
+    "rule_id": "PPWR-2025-ART7-RECYCLED-CONTENT",
+    "company": "PureAir Devices BV",
+    "partner_id": "P018",
+    "product_id": "P018-B",
+    "product": "DryAir Dehumidifier",
+    "regulation": "Reg (EU) 32025R0040 \u2014 Article 7",
+    "requirement": "Plastic packaging placed on the EU market must meet mandatory minimum recycled-content targets. For contact-sensitive plastic packaging (e.g. consumer electronics retail packaging) the initial target is 10 % recycled content by 2030, rising to 50 % by 2040. Producers must declare recycled content on the packaging or a technical file available on request.",
+    "source_url": "https://eur-lex.europa.eu/eli/reg/2025/40/oj",
+    "gap": "'DryAir Dehumidifier' is sold in a market covered by PPWR-2025-ART7-RECYCLED-CONTENT but the required compliance has not been demonstrated.",
+    "deadline": "2030-01-01",
+    "severity": "high",
+    "recommended_action": "Review Article 7 obligations and obtain or demonstrate compliance before 2030-01-01.",
+    "alert": {
+      "channel": "email",
+      "to": "+31 70 001818",
+      "message": "PureAir Devices BV: your DryAir Dehumidifier must comply with Reg (EU) 32025R0040 \u2014 Article 7 by 2030-01-01. Source: https://eur-lex.europa.eu/eli/reg/2025/40/oj"
+    }
+  },
+  {
+    "rule_id": "ELEKTROG-2021-S6-WEEE-DE",
+    "company": "LumaNord Lighting GmbH",
+    "partner_id": "P001",
+    "product_id": "P001-A",
+    "product": "NordBeam LED Panel 600",
+    "regulation": "Reg (EU) ElektroG-DE-2021 \u2014 \u00a7 6 ElektroG (Elektro- und Elektronikger\u00e4tegesetz)",
+    "requirement": "Any manufacturer or authorised representative that places electrical or electronic equipment (EEE) on the German market must register with the stiftung ear (Gemeinsames R\u00fccknahmesystem) before the first placing on the market. Registration must state the equipment category (ElektroG Annex I), brand, and annual quantity placed. Unregistered EEE may not be sold in Germany.",
+    "source_url": "https://www.stiftung-ear.de/en/manufacturer-obligations/registration",
+    "gap": "'NordBeam LED Panel 600' is sold in a market covered by ELEKTROG-2021-S6-WEEE-DE but the required compliance has not been demonstrated.",
+    "deadline": "2024-01-01",
+    "severity": "high",
+    "recommended_action": "Review \u00a7 6 ElektroG (Elektro- und Elektronikger\u00e4tegesetz) obligations and obtain or demonstrate compliance before 2024-01-01.",
+    "alert": {
+      "channel": "email",
+      "to": "+49 7131 000101",
+      "message": "LumaNord Lighting GmbH: your NordBeam LED Panel 600 must comply with Reg (EU) ElektroG-DE-2021 \u2014 \u00a7 6 ElektroG (Elektro- und Elektronikger\u00e4tegesetz) by 2024-01-01. Source: https://www.stiftung-ear.de/en/manufacturer-obligations/registration"
+    }
+  },
+  {
+    "rule_id": "ELEKTROG-2021-S6-WEEE-DE",
+    "company": "LumaNord Lighting GmbH",
+    "partner_id": "P001",
+    "product_id": "P001-B",
+    "product": "FlexGlow RGB Strip 5m",
+    "regulation": "Reg (EU) ElektroG-DE-2021 \u2014 \u00a7 6 ElektroG (Elektro- und Elektronikger\u00e4tegesetz)",
+    "requirement": "Any manufacturer or authorised representative that places electrical or electronic equipment (EEE) on the German market must register with the stiftung ear (Gemeinsames R\u00fccknahmesystem) before the first placing on the market. Registration must state the equipment category (ElektroG Annex I), brand, and annual quantity placed. Unregistered EEE may not be sold in Germany.",
+    "source_url": "https://www.stiftung-ear.de/en/manufacturer-obligations/registration",
+    "gap": "'FlexGlow RGB Strip 5m' is sold in a market covered by ELEKTROG-2021-S6-WEEE-DE but the required compliance has not been demonstrated.",
+    "deadline": "2024-01-01",
+    "severity": "high",
+    "recommended_action": "Review \u00a7 6 ElektroG (Elektro- und Elektronikger\u00e4tegesetz) obligations and obtain or demonstrate compliance before 2024-01-01.",
+    "alert": {
+      "channel": "email",
+      "to": "+49 7131 000101",
+      "message": "LumaNord Lighting GmbH: your FlexGlow RGB Strip 5m must comply with Reg (EU) ElektroG-DE-2021 \u2014 \u00a7 6 ElektroG (Elektro- und Elektronikger\u00e4tegesetz) by 2024-01-01. Source: https://www.stiftung-ear.de/en/manufacturer-obligations/registration"
+    }
+  },
+  {
+    "rule_id": "ELEKTROG-2021-S6-WEEE-DE",
+    "company": "LumaNord Lighting GmbH",
+    "partner_id": "P001",
+    "product_id": "P001-C",
+    "product": "SmartGlow Wi-Fi Bulb",
+    "regulation": "Reg (EU) ElektroG-DE-2021 \u2014 \u00a7 6 ElektroG (Elektro- und Elektronikger\u00e4tegesetz)",
+    "requirement": "Any manufacturer or authorised representative that places electrical or electronic equipment (EEE) on the German market must register with the stiftung ear (Gemeinsames R\u00fccknahmesystem) before the first placing on the market. Registration must state the equipment category (ElektroG Annex I), brand, and annual quantity placed. Unregistered EEE may not be sold in Germany.",
+    "source_url": "https://www.stiftung-ear.de/en/manufacturer-obligations/registration",
+    "gap": "'SmartGlow Wi-Fi Bulb' is sold in a market covered by ELEKTROG-2021-S6-WEEE-DE but the required compliance has not been demonstrated.",
+    "deadline": "2024-01-01",
+    "severity": "high",
+    "recommended_action": "Review \u00a7 6 ElektroG (Elektro- und Elektronikger\u00e4tegesetz) obligations and obtain or demonstrate compliance before 2024-01-01.",
+    "alert": {
+      "channel": "email",
+      "to": "+49 7131 000101",
+      "message": "LumaNord Lighting GmbH: your SmartGlow Wi-Fi Bulb must comply with Reg (EU) ElektroG-DE-2021 \u2014 \u00a7 6 ElektroG (Elektro- und Elektronikger\u00e4tegesetz) by 2024-01-01. Source: https://www.stiftung-ear.de/en/manufacturer-obligations/registration"
+    }
+  },
+  {
+    "rule_id": "ELEKTROG-2021-S6-WEEE-DE",
+    "company": "VoltEdge Power BV",
+    "partner_id": "P002",
+    "product_id": "P002-A",
+    "product": "GaN USB-C Charger 65W",
+    "regulation": "Reg (EU) ElektroG-DE-2021 \u2014 \u00a7 6 ElektroG (Elektro- und Elektronikger\u00e4tegesetz)",
+    "requirement": "Any manufacturer or authorised representative that places electrical or electronic equipment (EEE) on the German market must register with the stiftung ear (Gemeinsames R\u00fccknahmesystem) before the first placing on the market. Registration must state the equipment category (ElektroG Annex I), brand, and annual quantity placed. Unregistered EEE may not be sold in Germany.",
+    "source_url": "https://www.stiftung-ear.de/en/manufacturer-obligations/registration",
+    "gap": "'GaN USB-C Charger 65W' is sold in a market covered by ELEKTROG-2021-S6-WEEE-DE but the required compliance has not been demonstrated.",
+    "deadline": "2024-01-01",
+    "severity": "high",
+    "recommended_action": "Review \u00a7 6 ElektroG (Elektro- und Elektronikger\u00e4tegesetz) obligations and obtain or demonstrate compliance before 2024-01-01.",
+    "alert": {
+      "channel": "email",
+      "to": "+31 20 0000202",
+      "message": "VoltEdge Power BV: your GaN USB-C Charger 65W must comply with Reg (EU) ElektroG-DE-2021 \u2014 \u00a7 6 ElektroG (Elektro- und Elektronikger\u00e4tegesetz) by 2024-01-01. Source: https://www.stiftung-ear.de/en/manufacturer-obligations/registration"
+    }
+  },
+  {
+    "rule_id": "ELEKTROG-2021-S6-WEEE-DE",
+    "company": "VoltEdge Power BV",
+    "partner_id": "P002",
+    "product_id": "P002-B",
+    "product": "DeskDock USB-C Multiport",
+    "regulation": "Reg (EU) ElektroG-DE-2021 \u2014 \u00a7 6 ElektroG (Elektro- und Elektronikger\u00e4tegesetz)",
+    "requirement": "Any manufacturer or authorised representative that places electrical or electronic equipment (EEE) on the German market must register with the stiftung ear (Gemeinsames R\u00fccknahmesystem) before the first placing on the market. Registration must state the equipment category (ElektroG Annex I), brand, and annual quantity placed. Unregistered EEE may not be sold in Germany.",
+    "source_url": "https://www.stiftung-ear.de/en/manufacturer-obligations/registration",
+    "gap": "'DeskDock USB-C Multiport' is sold in a market covered by ELEKTROG-2021-S6-WEEE-DE but the required compliance has not been demonstrated.",
+    "deadline": "2024-01-01",
+    "severity": "high",
+    "recommended_action": "Review \u00a7 6 ElektroG (Elektro- und Elektronikger\u00e4tegesetz) obligations and obtain or demonstrate compliance before 2024-01-01.",
+    "alert": {
+      "channel": "email",
+      "to": "+31 20 0000202",
+      "message": "VoltEdge Power BV: your DeskDock USB-C Multiport must comply with Reg (EU) ElektroG-DE-2021 \u2014 \u00a7 6 ElektroG (Elektro- und Elektronikger\u00e4tegesetz) by 2024-01-01. Source: https://www.stiftung-ear.de/en/manufacturer-obligations/registration"
+    }
+  },
+  {
+    "rule_id": "ELEKTROG-2021-S6-WEEE-DE",
+    "company": "CellCore Energy Sp. z o.o.",
+    "partner_id": "P003",
+    "product_id": "P003-A",
+    "product": "PowerBank 20k Portable",
+    "regulation": "Reg (EU) ElektroG-DE-2021 \u2014 \u00a7 6 ElektroG (Elektro- und Elektronikger\u00e4tegesetz)",
+    "requirement": "Any manufacturer or authorised representative that places electrical or electronic equipment (EEE) on the German market must register with the stiftung ear (Gemeinsames R\u00fccknahmesystem) before the first placing on the market. Registration must state the equipment category (ElektroG Annex I), brand, and annual quantity placed. Unregistered EEE may not be sold in Germany.",
+    "source_url": "https://www.stiftung-ear.de/en/manufacturer-obligations/registration",
+    "gap": "'PowerBank 20k Portable' is sold in a market covered by ELEKTROG-2021-S6-WEEE-DE but the required compliance has not been demonstrated.",
+    "deadline": "2024-01-01",
+    "severity": "high",
+    "recommended_action": "Review \u00a7 6 ElektroG (Elektro- und Elektronikger\u00e4tegesetz) obligations and obtain or demonstrate compliance before 2024-01-01.",
+    "alert": {
+      "channel": "sms",
+      "to": "+48 22 0000303",
+      "message": "CellCore Energy Sp. z o.o.: your PowerBank 20k Portable must comply with Reg (EU) ElektroG-DE-2021 \u2014 \u00a7 6 ElektroG (Elektro- und Elektronikger\u00e4tegesetz) by 2024-01-01. Source: https://www.stiftung-ear.de/en/manufacturer-obligations/registration"
+    }
+  },
+  {
+    "rule_id": "ELEKTROG-2021-S6-WEEE-DE",
+    "company": "CellCore Energy Sp. z o.o.",
+    "partner_id": "P003",
+    "product_id": "P003-B",
+    "product": "IndusCell 2.5kWh Module",
+    "regulation": "Reg (EU) ElektroG-DE-2021 \u2014 \u00a7 6 ElektroG (Elektro- und Elektronikger\u00e4tegesetz)",
+    "requirement": "Any manufacturer or authorised representative that places electrical or electronic equipment (EEE) on the German market must register with the stiftung ear (Gemeinsames R\u00fccknahmesystem) before the first placing on the market. Registration must state the equipment category (ElektroG Annex I), brand, and annual quantity placed. Unregistered EEE may not be sold in Germany.",
+    "source_url": "https://www.stiftung-ear.de/en/manufacturer-obligations/registration",
+    "gap": "'IndusCell 2.5kWh Module' is sold in a market covered by ELEKTROG-2021-S6-WEEE-DE but the required compliance has not been demonstrated.",
+    "deadline": "2024-01-01",
+    "severity": "high",
+    "recommended_action": "Review \u00a7 6 ElektroG (Elektro- und Elektronikger\u00e4tegesetz) obligations and obtain or demonstrate compliance before 2024-01-01.",
+    "alert": {
+      "channel": "sms",
+      "to": "+48 22 0000303",
+      "message": "CellCore Energy Sp. z o.o.: your IndusCell 2.5kWh Module must comply with Reg (EU) ElektroG-DE-2021 \u2014 \u00a7 6 ElektroG (Elektro- und Elektronikger\u00e4tegesetz) by 2024-01-01. Source: https://www.stiftung-ear.de/en/manufacturer-obligations/registration"
+    }
+  },
+  {
+    "rule_id": "ELEKTROG-2021-S6-WEEE-DE",
+    "company": "CellCore Energy Sp. z o.o.",
+    "partner_id": "P003",
+    "product_id": "P003-C",
+    "product": "CoinCell CR2032 10-pack",
+    "regulation": "Reg (EU) ElektroG-DE-2021 \u2014 \u00a7 6 ElektroG (Elektro- und Elektronikger\u00e4tegesetz)",
+    "requirement": "Any manufacturer or authorised representative that places electrical or electronic equipment (EEE) on the German market must register with the stiftung ear (Gemeinsames R\u00fccknahmesystem) before the first placing on the market. Registration must state the equipment category (ElektroG Annex I), brand, and annual quantity placed. Unregistered EEE may not be sold in Germany.",
+    "source_url": "https://www.stiftung-ear.de/en/manufacturer-obligations/registration",
+    "gap": "'CoinCell CR2032 10-pack' is sold in a market covered by ELEKTROG-2021-S6-WEEE-DE but the required compliance has not been demonstrated.",
+    "deadline": "2024-01-01",
+    "severity": "high",
+    "recommended_action": "Review \u00a7 6 ElektroG (Elektro- und Elektronikger\u00e4tegesetz) obligations and obtain or demonstrate compliance before 2024-01-01.",
+    "alert": {
+      "channel": "sms",
+      "to": "+48 22 0000303",
+      "message": "CellCore Energy Sp. z o.o.: your CoinCell CR2032 10-pack must comply with Reg (EU) ElektroG-DE-2021 \u2014 \u00a7 6 ElektroG (Elektro- und Elektronikger\u00e4tegesetz) by 2024-01-01. Source: https://www.stiftung-ear.de/en/manufacturer-obligations/registration"
+    }
+  },
+  {
+    "rule_id": "ELEKTROG-2021-S6-WEEE-DE",
+    "company": "SonicWave Audio SARL",
+    "partner_id": "P004",
+    "product_id": "P004-A",
+    "product": "WaveGo Bluetooth Speaker",
+    "regulation": "Reg (EU) ElektroG-DE-2021 \u2014 \u00a7 6 ElektroG (Elektro- und Elektronikger\u00e4tegesetz)",
+    "requirement": "Any manufacturer or authorised representative that places electrical or electronic equipment (EEE) on the German market must register with the stiftung ear (Gemeinsames R\u00fccknahmesystem) before the first placing on the market. Registration must state the equipment category (ElektroG Annex I), brand, and annual quantity placed. Unregistered EEE may not be sold in Germany.",
+    "source_url": "https://www.stiftung-ear.de/en/manufacturer-obligations/registration",
+    "gap": "'WaveGo Bluetooth Speaker' is sold in a market covered by ELEKTROG-2021-S6-WEEE-DE but the required compliance has not been demonstrated.",
+    "deadline": "2024-01-01",
+    "severity": "high",
+    "recommended_action": "Review \u00a7 6 ElektroG (Elektro- und Elektronikger\u00e4tegesetz) obligations and obtain or demonstrate compliance before 2024-01-01.",
+    "alert": {
+      "channel": "whatsapp",
+      "to": "+33 1 00000404",
+      "message": "SonicWave Audio SARL: your WaveGo Bluetooth Speaker must comply with Reg (EU) ElektroG-DE-2021 \u2014 \u00a7 6 ElektroG (Elektro- und Elektronikger\u00e4tegesetz) by 2024-01-01. Source: https://www.stiftung-ear.de/en/manufacturer-obligations/registration"
+    }
+  },
+  {
+    "rule_id": "ELEKTROG-2021-S6-WEEE-DE",
+    "company": "SonicWave Audio SARL",
+    "partner_id": "P004",
+    "product_id": "P004-B",
+    "product": "StudioPods Headphones",
+    "regulation": "Reg (EU) ElektroG-DE-2021 \u2014 \u00a7 6 ElektroG (Elektro- und Elektronikger\u00e4tegesetz)",
+    "requirement": "Any manufacturer or authorised representative that places electrical or electronic equipment (EEE) on the German market must register with the stiftung ear (Gemeinsames R\u00fccknahmesystem) before the first placing on the market. Registration must state the equipment category (ElektroG Annex I), brand, and annual quantity placed. Unregistered EEE may not be sold in Germany.",
+    "source_url": "https://www.stiftung-ear.de/en/manufacturer-obligations/registration",
+    "gap": "'StudioPods Headphones' is sold in a market covered by ELEKTROG-2021-S6-WEEE-DE but the required compliance has not been demonstrated.",
+    "deadline": "2024-01-01",
+    "severity": "high",
+    "recommended_action": "Review \u00a7 6 ElektroG (Elektro- und Elektronikger\u00e4tegesetz) obligations and obtain or demonstrate compliance before 2024-01-01.",
+    "alert": {
+      "channel": "whatsapp",
+      "to": "+33 1 00000404",
+      "message": "SonicWave Audio SARL: your StudioPods Headphones must comply with Reg (EU) ElektroG-DE-2021 \u2014 \u00a7 6 ElektroG (Elektro- und Elektronikger\u00e4tegesetz) by 2024-01-01. Source: https://www.stiftung-ear.de/en/manufacturer-obligations/registration"
+    }
+  },
+  {
+    "rule_id": "ELEKTROG-2021-S6-WEEE-DE",
+    "company": "SonicWave Audio SARL",
+    "partner_id": "P004",
+    "product_id": "P004-C",
+    "product": "WaveHome Soundbar",
+    "regulation": "Reg (EU) ElektroG-DE-2021 \u2014 \u00a7 6 ElektroG (Elektro- und Elektronikger\u00e4tegesetz)",
+    "requirement": "Any manufacturer or authorised representative that places electrical or electronic equipment (EEE) on the German market must register with the stiftung ear (Gemeinsames R\u00fccknahmesystem) before the first placing on the market. Registration must state the equipment category (ElektroG Annex I), brand, and annual quantity placed. Unregistered EEE may not be sold in Germany.",
+    "source_url": "https://www.stiftung-ear.de/en/manufacturer-obligations/registration",
+    "gap": "'WaveHome Soundbar' is sold in a market covered by ELEKTROG-2021-S6-WEEE-DE but the required compliance has not been demonstrated.",
+    "deadline": "2024-01-01",
+    "severity": "high",
+    "recommended_action": "Review \u00a7 6 ElektroG (Elektro- und Elektronikger\u00e4tegesetz) obligations and obtain or demonstrate compliance before 2024-01-01.",
+    "alert": {
+      "channel": "whatsapp",
+      "to": "+33 1 00000404",
+      "message": "SonicWave Audio SARL: your WaveHome Soundbar must comply with Reg (EU) ElektroG-DE-2021 \u2014 \u00a7 6 ElektroG (Elektro- und Elektronikger\u00e4tegesetz) by 2024-01-01. Source: https://www.stiftung-ear.de/en/manufacturer-obligations/registration"
+    }
+  },
+  {
+    "rule_id": "ELEKTROG-2021-S6-WEEE-DE",
+    "company": "HomePulse Smart GmbH",
+    "partner_id": "P005",
+    "product_id": "P005-A",
+    "product": "MotionSense Sensor",
+    "regulation": "Reg (EU) ElektroG-DE-2021 \u2014 \u00a7 6 ElektroG (Elektro- und Elektronikger\u00e4tegesetz)",
+    "requirement": "Any manufacturer or authorised representative that places electrical or electronic equipment (EEE) on the German market must register with the stiftung ear (Gemeinsames R\u00fccknahmesystem) before the first placing on the market. Registration must state the equipment category (ElektroG Annex I), brand, and annual quantity placed. Unregistered EEE may not be sold in Germany.",
+    "source_url": "https://www.stiftung-ear.de/en/manufacturer-obligations/registration",
+    "gap": "'MotionSense Sensor' is sold in a market covered by ELEKTROG-2021-S6-WEEE-DE but the required compliance has not been demonstrated.",
+    "deadline": "2024-01-01",
+    "severity": "high",
+    "recommended_action": "Review \u00a7 6 ElektroG (Elektro- und Elektronikger\u00e4tegesetz) obligations and obtain or demonstrate compliance before 2024-01-01.",
+    "alert": {
+      "channel": "email",
+      "to": "+49 30 000505",
+      "message": "HomePulse Smart GmbH: your MotionSense Sensor must comply with Reg (EU) ElektroG-DE-2021 \u2014 \u00a7 6 ElektroG (Elektro- und Elektronikger\u00e4tegesetz) by 2024-01-01. Source: https://www.stiftung-ear.de/en/manufacturer-obligations/registration"
+    }
+  },
+  {
+    "rule_id": "ELEKTROG-2021-S6-WEEE-DE",
+    "company": "HomePulse Smart GmbH",
+    "partner_id": "P005",
+    "product_id": "P005-B",
+    "product": "HomeHub Controller",
+    "regulation": "Reg (EU) ElektroG-DE-2021 \u2014 \u00a7 6 ElektroG (Elektro- und Elektronikger\u00e4tegesetz)",
+    "requirement": "Any manufacturer or authorised representative that places electrical or electronic equipment (EEE) on the German market must register with the stiftung ear (Gemeinsames R\u00fccknahmesystem) before the first placing on the market. Registration must state the equipment category (ElektroG Annex I), brand, and annual quantity placed. Unregistered EEE may not be sold in Germany.",
+    "source_url": "https://www.stiftung-ear.de/en/manufacturer-obligations/registration",
+    "gap": "'HomeHub Controller' is sold in a market covered by ELEKTROG-2021-S6-WEEE-DE but the required compliance has not been demonstrated.",
+    "deadline": "2024-01-01",
+    "severity": "high",
+    "recommended_action": "Review \u00a7 6 ElektroG (Elektro- und Elektronikger\u00e4tegesetz) obligations and obtain or demonstrate compliance before 2024-01-01.",
+    "alert": {
+      "channel": "email",
+      "to": "+49 30 000505",
+      "message": "HomePulse Smart GmbH: your HomeHub Controller must comply with Reg (EU) ElektroG-DE-2021 \u2014 \u00a7 6 ElektroG (Elektro- und Elektronikger\u00e4tegesetz) by 2024-01-01. Source: https://www.stiftung-ear.de/en/manufacturer-obligations/registration"
+    }
+  },
+  {
+    "rule_id": "ELEKTROG-2021-S6-WEEE-DE",
+    "company": "HomePulse Smart GmbH",
+    "partner_id": "P005",
+    "product_id": "P005-C",
+    "product": "PlugSense Smart Plug",
+    "regulation": "Reg (EU) ElektroG-DE-2021 \u2014 \u00a7 6 ElektroG (Elektro- und Elektronikger\u00e4tegesetz)",
+    "requirement": "Any manufacturer or authorised representative that places electrical or electronic equipment (EEE) on the German market must register with the stiftung ear (Gemeinsames R\u00fccknahmesystem) before the first placing on the market. Registration must state the equipment category (ElektroG Annex I), brand, and annual quantity placed. Unregistered EEE may not be sold in Germany.",
+    "source_url": "https://www.stiftung-ear.de/en/manufacturer-obligations/registration",
+    "gap": "'PlugSense Smart Plug' is sold in a market covered by ELEKTROG-2021-S6-WEEE-DE but the required compliance has not been demonstrated.",
+    "deadline": "2024-01-01",
+    "severity": "high",
+    "recommended_action": "Review \u00a7 6 ElektroG (Elektro- und Elektronikger\u00e4tegesetz) obligations and obtain or demonstrate compliance before 2024-01-01.",
+    "alert": {
+      "channel": "email",
+      "to": "+49 30 000505",
+      "message": "HomePulse Smart GmbH: your PlugSense Smart Plug must comply with Reg (EU) ElektroG-DE-2021 \u2014 \u00a7 6 ElektroG (Elektro- und Elektronikger\u00e4tegesetz) by 2024-01-01. Source: https://www.stiftung-ear.de/en/manufacturer-obligations/registration"
+    }
+  },
+  {
+    "rule_id": "ELEKTROG-2021-S6-WEEE-DE",
+    "company": "FitTrack Wearables AB",
+    "partner_id": "P006",
+    "product_id": "P006-A",
+    "product": "PulseBand Activity Tracker",
+    "regulation": "Reg (EU) ElektroG-DE-2021 \u2014 \u00a7 6 ElektroG (Elektro- und Elektronikger\u00e4tegesetz)",
+    "requirement": "Any manufacturer or authorised representative that places electrical or electronic equipment (EEE) on the German market must register with the stiftung ear (Gemeinsames R\u00fccknahmesystem) before the first placing on the market. Registration must state the equipment category (ElektroG Annex I), brand, and annual quantity placed. Unregistered EEE may not be sold in Germany.",
+    "source_url": "https://www.stiftung-ear.de/en/manufacturer-obligations/registration",
+    "gap": "'PulseBand Activity Tracker' is sold in a market covered by ELEKTROG-2021-S6-WEEE-DE but the required compliance has not been demonstrated.",
+    "deadline": "2024-01-01",
+    "severity": "high",
+    "recommended_action": "Review \u00a7 6 ElektroG (Elektro- und Elektronikger\u00e4tegesetz) obligations and obtain or demonstrate compliance before 2024-01-01.",
+    "alert": {
+      "channel": "sms",
+      "to": "+46 8 00000606",
+      "message": "FitTrack Wearables AB: your PulseBand Activity Tracker must comply with Reg (EU) ElektroG-DE-2021 \u2014 \u00a7 6 ElektroG (Elektro- und Elektronikger\u00e4tegesetz) by 2024-01-01. Source: https://www.stiftung-ear.de/en/manufacturer-obligations/registration"
+    }
+  },
+  {
+    "rule_id": "ELEKTROG-2021-S6-WEEE-DE",
+    "company": "FitTrack Wearables AB",
+    "partner_id": "P006",
+    "product_id": "P006-B",
+    "product": "SportWatch GPS",
+    "regulation": "Reg (EU) ElektroG-DE-2021 \u2014 \u00a7 6 ElektroG (Elektro- und Elektronikger\u00e4tegesetz)",
+    "requirement": "Any manufacturer or authorised representative that places electrical or electronic equipment (EEE) on the German market must register with the stiftung ear (Gemeinsames R\u00fccknahmesystem) before the first placing on the market. Registration must state the equipment category (ElektroG Annex I), brand, and annual quantity placed. Unregistered EEE may not be sold in Germany.",
+    "source_url": "https://www.stiftung-ear.de/en/manufacturer-obligations/registration",
+    "gap": "'SportWatch GPS' is sold in a market covered by ELEKTROG-2021-S6-WEEE-DE but the required compliance has not been demonstrated.",
+    "deadline": "2024-01-01",
+    "severity": "high",
+    "recommended_action": "Review \u00a7 6 ElektroG (Elektro- und Elektronikger\u00e4tegesetz) obligations and obtain or demonstrate compliance before 2024-01-01.",
+    "alert": {
+      "channel": "sms",
+      "to": "+46 8 00000606",
+      "message": "FitTrack Wearables AB: your SportWatch GPS must comply with Reg (EU) ElektroG-DE-2021 \u2014 \u00a7 6 ElektroG (Elektro- und Elektronikger\u00e4tegesetz) by 2024-01-01. Source: https://www.stiftung-ear.de/en/manufacturer-obligations/registration"
+    }
+  },
+  {
+    "rule_id": "ELEKTROG-2021-S6-WEEE-DE",
+    "company": "DisplayOne Visuals GmbH",
+    "partner_id": "P010",
+    "product_id": "P010-A",
+    "product": "UltraView 27 Monitor",
+    "regulation": "Reg (EU) ElektroG-DE-2021 \u2014 \u00a7 6 ElektroG (Elektro- und Elektronikger\u00e4tegesetz)",
+    "requirement": "Any manufacturer or authorised representative that places electrical or electronic equipment (EEE) on the German market must register with the stiftung ear (Gemeinsames R\u00fccknahmesystem) before the first placing on the market. Registration must state the equipment category (ElektroG Annex I), brand, and annual quantity placed. Unregistered EEE may not be sold in Germany.",
+    "source_url": "https://www.stiftung-ear.de/en/manufacturer-obligations/registration",
+    "gap": "'UltraView 27 Monitor' is sold in a market covered by ELEKTROG-2021-S6-WEEE-DE but the required compliance has not been demonstrated.",
+    "deadline": "2024-01-01",
+    "severity": "high",
+    "recommended_action": "Review \u00a7 6 ElektroG (Elektro- und Elektronikger\u00e4tegesetz) obligations and obtain or demonstrate compliance before 2024-01-01.",
+    "alert": {
+      "channel": "email",
+      "to": "+49 89 001010",
+      "message": "DisplayOne Visuals GmbH: your UltraView 27 Monitor must comply with Reg (EU) ElektroG-DE-2021 \u2014 \u00a7 6 ElektroG (Elektro- und Elektronikger\u00e4tegesetz) by 2024-01-01. Source: https://www.stiftung-ear.de/en/manufacturer-obligations/registration"
+    }
+  },
+  {
+    "rule_id": "ELEKTROG-2021-S6-WEEE-DE",
+    "company": "DisplayOne Visuals GmbH",
+    "partner_id": "P010",
+    "product_id": "P010-B",
+    "product": "Legacy CCFL Panel (spare)",
+    "regulation": "Reg (EU) ElektroG-DE-2021 \u2014 \u00a7 6 ElektroG (Elektro- und Elektronikger\u00e4tegesetz)",
+    "requirement": "Any manufacturer or authorised representative that places electrical or electronic equipment (EEE) on the German market must register with the stiftung ear (Gemeinsames R\u00fccknahmesystem) before the first placing on the market. Registration must state the equipment category (ElektroG Annex I), brand, and annual quantity placed. Unregistered EEE may not be sold in Germany.",
+    "source_url": "https://www.stiftung-ear.de/en/manufacturer-obligations/registration",
+    "gap": "'Legacy CCFL Panel (spare)' is sold in a market covered by ELEKTROG-2021-S6-WEEE-DE but the required compliance has not been demonstrated.",
+    "deadline": "2024-01-01",
+    "severity": "high",
+    "recommended_action": "Review \u00a7 6 ElektroG (Elektro- und Elektronikger\u00e4tegesetz) obligations and obtain or demonstrate compliance before 2024-01-01.",
+    "alert": {
+      "channel": "email",
+      "to": "+49 89 001010",
+      "message": "DisplayOne Visuals GmbH: your Legacy CCFL Panel (spare) must comply with Reg (EU) ElektroG-DE-2021 \u2014 \u00a7 6 ElektroG (Elektro- und Elektronikger\u00e4tegesetz) by 2024-01-01. Source: https://www.stiftung-ear.de/en/manufacturer-obligations/registration"
+    }
+  },
+  {
+    "rule_id": "ELEKTROG-2021-S6-WEEE-DE",
+    "company": "DisplayOne Visuals GmbH",
+    "partner_id": "P010",
+    "product_id": "P010-C",
+    "product": "TouchPanel 15 Industrial",
+    "regulation": "Reg (EU) ElektroG-DE-2021 \u2014 \u00a7 6 ElektroG (Elektro- und Elektronikger\u00e4tegesetz)",
+    "requirement": "Any manufacturer or authorised representative that places electrical or electronic equipment (EEE) on the German market must register with the stiftung ear (Gemeinsames R\u00fccknahmesystem) before the first placing on the market. Registration must state the equipment category (ElektroG Annex I), brand, and annual quantity placed. Unregistered EEE may not be sold in Germany.",
+    "source_url": "https://www.stiftung-ear.de/en/manufacturer-obligations/registration",
+    "gap": "'TouchPanel 15 Industrial' is sold in a market covered by ELEKTROG-2021-S6-WEEE-DE but the required compliance has not been demonstrated.",
+    "deadline": "2024-01-01",
+    "severity": "high",
+    "recommended_action": "Review \u00a7 6 ElektroG (Elektro- und Elektronikger\u00e4tegesetz) obligations and obtain or demonstrate compliance before 2024-01-01.",
+    "alert": {
+      "channel": "email",
+      "to": "+49 89 001010",
+      "message": "DisplayOne Visuals GmbH: your TouchPanel 15 Industrial must comply with Reg (EU) ElektroG-DE-2021 \u2014 \u00a7 6 ElektroG (Elektro- und Elektronikger\u00e4tegesetz) by 2024-01-01. Source: https://www.stiftung-ear.de/en/manufacturer-obligations/registration"
+    }
+  },
+  {
+    "rule_id": "ELEKTROG-2021-S6-WEEE-DE",
+    "company": "RideVolt Mobility GmbH",
+    "partner_id": "P013",
+    "product_id": "P013-A",
+    "product": "e-Scooter Battery Pack 280Wh",
+    "regulation": "Reg (EU) ElektroG-DE-2021 \u2014 \u00a7 6 ElektroG (Elektro- und Elektronikger\u00e4tegesetz)",
+    "requirement": "Any manufacturer or authorised representative that places electrical or electronic equipment (EEE) on the German market must register with the stiftung ear (Gemeinsames R\u00fccknahmesystem) before the first placing on the market. Registration must state the equipment category (ElektroG Annex I), brand, and annual quantity placed. Unregistered EEE may not be sold in Germany.",
+    "source_url": "https://www.stiftung-ear.de/en/manufacturer-obligations/registration",
+    "gap": "'e-Scooter Battery Pack 280Wh' is sold in a market covered by ELEKTROG-2021-S6-WEEE-DE but the required compliance has not been demonstrated.",
+    "deadline": "2024-01-01",
+    "severity": "high",
+    "recommended_action": "Review \u00a7 6 ElektroG (Elektro- und Elektronikger\u00e4tegesetz) obligations and obtain or demonstrate compliance before 2024-01-01.",
+    "alert": {
+      "channel": "sms",
+      "to": "+49 711 001313",
+      "message": "RideVolt Mobility GmbH: your e-Scooter Battery Pack 280Wh must comply with Reg (EU) ElektroG-DE-2021 \u2014 \u00a7 6 ElektroG (Elektro- und Elektronikger\u00e4tegesetz) by 2024-01-01. Source: https://www.stiftung-ear.de/en/manufacturer-obligations/registration"
+    }
+  },
+  {
+    "rule_id": "ELEKTROG-2021-S6-WEEE-DE",
+    "company": "RideVolt Mobility GmbH",
+    "partner_id": "P013",
+    "product_id": "P013-B",
+    "product": "eBike Battery 504Wh",
+    "regulation": "Reg (EU) ElektroG-DE-2021 \u2014 \u00a7 6 ElektroG (Elektro- und Elektronikger\u00e4tegesetz)",
+    "requirement": "Any manufacturer or authorised representative that places electrical or electronic equipment (EEE) on the German market must register with the stiftung ear (Gemeinsames R\u00fccknahmesystem) before the first placing on the market. Registration must state the equipment category (ElektroG Annex I), brand, and annual quantity placed. Unregistered EEE may not be sold in Germany.",
+    "source_url": "https://www.stiftung-ear.de/en/manufacturer-obligations/registration",
+    "gap": "'eBike Battery 504Wh' is sold in a market covered by ELEKTROG-2021-S6-WEEE-DE but the required compliance has not been demonstrated.",
+    "deadline": "2024-01-01",
+    "severity": "high",
+    "recommended_action": "Review \u00a7 6 ElektroG (Elektro- und Elektronikger\u00e4tegesetz) obligations and obtain or demonstrate compliance before 2024-01-01.",
+    "alert": {
+      "channel": "sms",
+      "to": "+49 711 001313",
+      "message": "RideVolt Mobility GmbH: your eBike Battery 504Wh must comply with Reg (EU) ElektroG-DE-2021 \u2014 \u00a7 6 ElektroG (Elektro- und Elektronikger\u00e4tegesetz) by 2024-01-01. Source: https://www.stiftung-ear.de/en/manufacturer-obligations/registration"
+    }
+  },
+  {
+    "rule_id": "ELEKTROG-2021-S6-WEEE-DE",
+    "company": "NetLink Systems Sp. z o.o.",
+    "partner_id": "P014",
+    "product_id": "P014-A",
+    "product": "AirLink Wi-Fi 6 Router",
+    "regulation": "Reg (EU) ElektroG-DE-2021 \u2014 \u00a7 6 ElektroG (Elektro- und Elektronikger\u00e4tegesetz)",
+    "requirement": "Any manufacturer or authorised representative that places electrical or electronic equipment (EEE) on the German market must register with the stiftung ear (Gemeinsames R\u00fccknahmesystem) before the first placing on the market. Registration must state the equipment category (ElektroG Annex I), brand, and annual quantity placed. Unregistered EEE may not be sold in Germany.",
+    "source_url": "https://www.stiftung-ear.de/en/manufacturer-obligations/registration",
+    "gap": "'AirLink Wi-Fi 6 Router' is sold in a market covered by ELEKTROG-2021-S6-WEEE-DE but the required compliance has not been demonstrated.",
+    "deadline": "2024-01-01",
+    "severity": "high",
+    "recommended_action": "Review \u00a7 6 ElektroG (Elektro- und Elektronikger\u00e4tegesetz) obligations and obtain or demonstrate compliance before 2024-01-01.",
+    "alert": {
+      "channel": "email",
+      "to": "+48 12 001414",
+      "message": "NetLink Systems Sp. z o.o.: your AirLink Wi-Fi 6 Router must comply with Reg (EU) ElektroG-DE-2021 \u2014 \u00a7 6 ElektroG (Elektro- und Elektronikger\u00e4tegesetz) by 2024-01-01. Source: https://www.stiftung-ear.de/en/manufacturer-obligations/registration"
+    }
+  },
+  {
+    "rule_id": "ELEKTROG-2021-S6-WEEE-DE",
+    "company": "NetLink Systems Sp. z o.o.",
+    "partner_id": "P014",
+    "product_id": "P014-B",
+    "product": "MeshPoint Mini",
+    "regulation": "Reg (EU) ElektroG-DE-2021 \u2014 \u00a7 6 ElektroG (Elektro- und Elektronikger\u00e4tegesetz)",
+    "requirement": "Any manufacturer or authorised representative that places electrical or electronic equipment (EEE) on the German market must register with the stiftung ear (Gemeinsames R\u00fccknahmesystem) before the first placing on the market. Registration must state the equipment category (ElektroG Annex I), brand, and annual quantity placed. Unregistered EEE may not be sold in Germany.",
+    "source_url": "https://www.stiftung-ear.de/en/manufacturer-obligations/registration",
+    "gap": "'MeshPoint Mini' is sold in a market covered by ELEKTROG-2021-S6-WEEE-DE but the required compliance has not been demonstrated.",
+    "deadline": "2024-01-01",
+    "severity": "high",
+    "recommended_action": "Review \u00a7 6 ElektroG (Elektro- und Elektronikger\u00e4tegesetz) obligations and obtain or demonstrate compliance before 2024-01-01.",
+    "alert": {
+      "channel": "email",
+      "to": "+48 12 001414",
+      "message": "NetLink Systems Sp. z o.o.: your MeshPoint Mini must comply with Reg (EU) ElektroG-DE-2021 \u2014 \u00a7 6 ElektroG (Elektro- und Elektronikger\u00e4tegesetz) by 2024-01-01. Source: https://www.stiftung-ear.de/en/manufacturer-obligations/registration"
+    }
+  },
+  {
+    "rule_id": "ELEKTROG-2021-S6-WEEE-DE",
+    "company": "BrewEasy Appliances S.r.l.",
+    "partner_id": "P015",
+    "product_id": "P015-A",
+    "product": "QuickBoil Kettle 1.7L",
+    "regulation": "Reg (EU) ElektroG-DE-2021 \u2014 \u00a7 6 ElektroG (Elektro- und Elektronikger\u00e4tegesetz)",
+    "requirement": "Any manufacturer or authorised representative that places electrical or electronic equipment (EEE) on the German market must register with the stiftung ear (Gemeinsames R\u00fccknahmesystem) before the first placing on the market. Registration must state the equipment category (ElektroG Annex I), brand, and annual quantity placed. Unregistered EEE may not be sold in Germany.",
+    "source_url": "https://www.stiftung-ear.de/en/manufacturer-obligations/registration",
+    "gap": "'QuickBoil Kettle 1.7L' is sold in a market covered by ELEKTROG-2021-S6-WEEE-DE but the required compliance has not been demonstrated.",
+    "deadline": "2024-01-01",
+    "severity": "high",
+    "recommended_action": "Review \u00a7 6 ElektroG (Elektro- und Elektronikger\u00e4tegesetz) obligations and obtain or demonstrate compliance before 2024-01-01.",
+    "alert": {
+      "channel": "email",
+      "to": "+39 06 001515",
+      "message": "BrewEasy Appliances S.r.l.: your QuickBoil Kettle 1.7L must comply with Reg (EU) ElektroG-DE-2021 \u2014 \u00a7 6 ElektroG (Elektro- und Elektronikger\u00e4tegesetz) by 2024-01-01. Source: https://www.stiftung-ear.de/en/manufacturer-obligations/registration"
+    }
+  },
+  {
+    "rule_id": "ELEKTROG-2021-S6-WEEE-DE",
+    "company": "BrewEasy Appliances S.r.l.",
+    "partner_id": "P015",
+    "product_id": "P015-B",
+    "product": "ToastMaster 2-Slice",
+    "regulation": "Reg (EU) ElektroG-DE-2021 \u2014 \u00a7 6 ElektroG (Elektro- und Elektronikger\u00e4tegesetz)",
+    "requirement": "Any manufacturer or authorised representative that places electrical or electronic equipment (EEE) on the German market must register with the stiftung ear (Gemeinsames R\u00fccknahmesystem) before the first placing on the market. Registration must state the equipment category (ElektroG Annex I), brand, and annual quantity placed. Unregistered EEE may not be sold in Germany.",
+    "source_url": "https://www.stiftung-ear.de/en/manufacturer-obligations/registration",
+    "gap": "'ToastMaster 2-Slice' is sold in a market covered by ELEKTROG-2021-S6-WEEE-DE but the required compliance has not been demonstrated.",
+    "deadline": "2024-01-01",
+    "severity": "high",
+    "recommended_action": "Review \u00a7 6 ElektroG (Elektro- und Elektronikger\u00e4tegesetz) obligations and obtain or demonstrate compliance before 2024-01-01.",
+    "alert": {
+      "channel": "email",
+      "to": "+39 06 001515",
+      "message": "BrewEasy Appliances S.r.l.: your ToastMaster 2-Slice must comply with Reg (EU) ElektroG-DE-2021 \u2014 \u00a7 6 ElektroG (Elektro- und Elektronikger\u00e4tegesetz) by 2024-01-01. Source: https://www.stiftung-ear.de/en/manufacturer-obligations/registration"
+    }
+  },
+  {
+    "rule_id": "ELEKTROG-2021-S6-WEEE-DE",
+    "company": "ChromaPrint 3D GmbH",
+    "partner_id": "P016",
+    "product_id": "P016-A",
+    "product": "ChromaPrint X1 (EU)",
+    "regulation": "Reg (EU) ElektroG-DE-2021 \u2014 \u00a7 6 ElektroG (Elektro- und Elektronikger\u00e4tegesetz)",
+    "requirement": "Any manufacturer or authorised representative that places electrical or electronic equipment (EEE) on the German market must register with the stiftung ear (Gemeinsames R\u00fccknahmesystem) before the first placing on the market. Registration must state the equipment category (ElektroG Annex I), brand, and annual quantity placed. Unregistered EEE may not be sold in Germany.",
+    "source_url": "https://www.stiftung-ear.de/en/manufacturer-obligations/registration",
+    "gap": "'ChromaPrint X1 (EU)' is sold in a market covered by ELEKTROG-2021-S6-WEEE-DE but the required compliance has not been demonstrated.",
+    "deadline": "2024-01-01",
+    "severity": "high",
+    "recommended_action": "Review \u00a7 6 ElektroG (Elektro- und Elektronikger\u00e4tegesetz) obligations and obtain or demonstrate compliance before 2024-01-01.",
+    "alert": {
+      "channel": "email",
+      "to": "+49 351 001616",
+      "message": "ChromaPrint 3D GmbH: your ChromaPrint X1 (EU) must comply with Reg (EU) ElektroG-DE-2021 \u2014 \u00a7 6 ElektroG (Elektro- und Elektronikger\u00e4tegesetz) by 2024-01-01. Source: https://www.stiftung-ear.de/en/manufacturer-obligations/registration"
+    }
+  },
+  {
+    "rule_id": "ELEKTROG-2021-S6-WEEE-DE",
+    "company": "ChromaPrint 3D GmbH",
+    "partner_id": "P016",
+    "product_id": "P016-C",
+    "product": "ResinPrint Mini (EU)",
+    "regulation": "Reg (EU) ElektroG-DE-2021 \u2014 \u00a7 6 ElektroG (Elektro- und Elektronikger\u00e4tegesetz)",
+    "requirement": "Any manufacturer or authorised representative that places electrical or electronic equipment (EEE) on the German market must register with the stiftung ear (Gemeinsames R\u00fccknahmesystem) before the first placing on the market. Registration must state the equipment category (ElektroG Annex I), brand, and annual quantity placed. Unregistered EEE may not be sold in Germany.",
+    "source_url": "https://www.stiftung-ear.de/en/manufacturer-obligations/registration",
+    "gap": "'ResinPrint Mini (EU)' is sold in a market covered by ELEKTROG-2021-S6-WEEE-DE but the required compliance has not been demonstrated.",
+    "deadline": "2024-01-01",
+    "severity": "high",
+    "recommended_action": "Review \u00a7 6 ElektroG (Elektro- und Elektronikger\u00e4tegesetz) obligations and obtain or demonstrate compliance before 2024-01-01.",
+    "alert": {
+      "channel": "email",
+      "to": "+49 351 001616",
+      "message": "ChromaPrint 3D GmbH: your ResinPrint Mini (EU) must comply with Reg (EU) ElektroG-DE-2021 \u2014 \u00a7 6 ElektroG (Elektro- und Elektronikger\u00e4tegesetz) by 2024-01-01. Source: https://www.stiftung-ear.de/en/manufacturer-obligations/registration"
+    }
+  },
+  {
+    "rule_id": "ELEKTROG-2021-S6-WEEE-DE",
+    "company": "AeroSense Drones SARL",
+    "partner_id": "P017",
+    "product_id": "P017-A",
+    "product": "SkyScout Camera Drone",
+    "regulation": "Reg (EU) ElektroG-DE-2021 \u2014 \u00a7 6 ElektroG (Elektro- und Elektronikger\u00e4tegesetz)",
+    "requirement": "Any manufacturer or authorised representative that places electrical or electronic equipment (EEE) on the German market must register with the stiftung ear (Gemeinsames R\u00fccknahmesystem) before the first placing on the market. Registration must state the equipment category (ElektroG Annex I), brand, and annual quantity placed. Unregistered EEE may not be sold in Germany.",
+    "source_url": "https://www.stiftung-ear.de/en/manufacturer-obligations/registration",
+    "gap": "'SkyScout Camera Drone' is sold in a market covered by ELEKTROG-2021-S6-WEEE-DE but the required compliance has not been demonstrated.",
+    "deadline": "2024-01-01",
+    "severity": "high",
+    "recommended_action": "Review \u00a7 6 ElektroG (Elektro- und Elektronikger\u00e4tegesetz) obligations and obtain or demonstrate compliance before 2024-01-01.",
+    "alert": {
+      "channel": "whatsapp",
+      "to": "+33 4 00001717",
+      "message": "AeroSense Drones SARL: your SkyScout Camera Drone must comply with Reg (EU) ElektroG-DE-2021 \u2014 \u00a7 6 ElektroG (Elektro- und Elektronikger\u00e4tegesetz) by 2024-01-01. Source: https://www.stiftung-ear.de/en/manufacturer-obligations/registration"
+    }
+  },
+  {
+    "rule_id": "ELEKTROG-2021-S6-WEEE-DE",
+    "company": "AeroSense Drones SARL",
+    "partner_id": "P017",
+    "product_id": "P017-B",
+    "product": "MicroDrone Mini",
+    "regulation": "Reg (EU) ElektroG-DE-2021 \u2014 \u00a7 6 ElektroG (Elektro- und Elektronikger\u00e4tegesetz)",
+    "requirement": "Any manufacturer or authorised representative that places electrical or electronic equipment (EEE) on the German market must register with the stiftung ear (Gemeinsames R\u00fccknahmesystem) before the first placing on the market. Registration must state the equipment category (ElektroG Annex I), brand, and annual quantity placed. Unregistered EEE may not be sold in Germany.",
+    "source_url": "https://www.stiftung-ear.de/en/manufacturer-obligations/registration",
+    "gap": "'MicroDrone Mini' is sold in a market covered by ELEKTROG-2021-S6-WEEE-DE but the required compliance has not been demonstrated.",
+    "deadline": "2024-01-01",
+    "severity": "high",
+    "recommended_action": "Review \u00a7 6 ElektroG (Elektro- und Elektronikger\u00e4tegesetz) obligations and obtain or demonstrate compliance before 2024-01-01.",
+    "alert": {
+      "channel": "whatsapp",
+      "to": "+33 4 00001717",
+      "message": "AeroSense Drones SARL: your MicroDrone Mini must comply with Reg (EU) ElektroG-DE-2021 \u2014 \u00a7 6 ElektroG (Elektro- und Elektronikger\u00e4tegesetz) by 2024-01-01. Source: https://www.stiftung-ear.de/en/manufacturer-obligations/registration"
+    }
+  },
+  {
+    "rule_id": "ELEKTROG-2021-S6-WEEE-DE",
+    "company": "PureAir Devices BV",
+    "partner_id": "P018",
+    "product_id": "P018-A",
+    "product": "FreshFlow Air Purifier",
+    "regulation": "Reg (EU) ElektroG-DE-2021 \u2014 \u00a7 6 ElektroG (Elektro- und Elektronikger\u00e4tegesetz)",
+    "requirement": "Any manufacturer or authorised representative that places electrical or electronic equipment (EEE) on the German market must register with the stiftung ear (Gemeinsames R\u00fccknahmesystem) before the first placing on the market. Registration must state the equipment category (ElektroG Annex I), brand, and annual quantity placed. Unregistered EEE may not be sold in Germany.",
+    "source_url": "https://www.stiftung-ear.de/en/manufacturer-obligations/registration",
+    "gap": "'FreshFlow Air Purifier' is sold in a market covered by ELEKTROG-2021-S6-WEEE-DE but the required compliance has not been demonstrated.",
+    "deadline": "2024-01-01",
+    "severity": "high",
+    "recommended_action": "Review \u00a7 6 ElektroG (Elektro- und Elektronikger\u00e4tegesetz) obligations and obtain or demonstrate compliance before 2024-01-01.",
+    "alert": {
+      "channel": "email",
+      "to": "+31 70 001818",
+      "message": "PureAir Devices BV: your FreshFlow Air Purifier must comply with Reg (EU) ElektroG-DE-2021 \u2014 \u00a7 6 ElektroG (Elektro- und Elektronikger\u00e4tegesetz) by 2024-01-01. Source: https://www.stiftung-ear.de/en/manufacturer-obligations/registration"
+    }
+  },
+  {
+    "rule_id": "ELEKTROG-2021-S6-WEEE-DE",
+    "company": "PureAir Devices BV",
+    "partner_id": "P018",
+    "product_id": "P018-B",
+    "product": "DryAir Dehumidifier",
+    "regulation": "Reg (EU) ElektroG-DE-2021 \u2014 \u00a7 6 ElektroG (Elektro- und Elektronikger\u00e4tegesetz)",
+    "requirement": "Any manufacturer or authorised representative that places electrical or electronic equipment (EEE) on the German market must register with the stiftung ear (Gemeinsames R\u00fccknahmesystem) before the first placing on the market. Registration must state the equipment category (ElektroG Annex I), brand, and annual quantity placed. Unregistered EEE may not be sold in Germany.",
+    "source_url": "https://www.stiftung-ear.de/en/manufacturer-obligations/registration",
+    "gap": "'DryAir Dehumidifier' is sold in a market covered by ELEKTROG-2021-S6-WEEE-DE but the required compliance has not been demonstrated.",
+    "deadline": "2024-01-01",
+    "severity": "high",
+    "recommended_action": "Review \u00a7 6 ElektroG (Elektro- und Elektronikger\u00e4tegesetz) obligations and obtain or demonstrate compliance before 2024-01-01.",
+    "alert": {
+      "channel": "email",
+      "to": "+31 70 001818",
+      "message": "PureAir Devices BV: your DryAir Dehumidifier must comply with Reg (EU) ElektroG-DE-2021 \u2014 \u00a7 6 ElektroG (Elektro- und Elektronikger\u00e4tegesetz) by 2024-01-01. Source: https://www.stiftung-ear.de/en/manufacturer-obligations/registration"
+    }
+  },
+  {
+    "rule_id": "ELEKTROG-2021-S6-WEEE-DE",
+    "company": "ThermoControl Industrie GmbH",
+    "partner_id": "P020",
+    "product_id": "P020-A",
+    "product": "IndusTherm Controller",
+    "regulation": "Reg (EU) ElektroG-DE-2021 \u2014 \u00a7 6 ElektroG (Elektro- und Elektronikger\u00e4tegesetz)",
+    "requirement": "Any manufacturer or authorised representative that places electrical or electronic equipment (EEE) on the German market must register with the stiftung ear (Gemeinsames R\u00fccknahmesystem) before the first placing on the market. Registration must state the equipment category (ElektroG Annex I), brand, and annual quantity placed. Unregistered EEE may not be sold in Germany.",
+    "source_url": "https://www.stiftung-ear.de/en/manufacturer-obligations/registration",
+    "gap": "'IndusTherm Controller' is sold in a market covered by ELEKTROG-2021-S6-WEEE-DE but the required compliance has not been demonstrated.",
+    "deadline": "2024-01-01",
+    "severity": "high",
+    "recommended_action": "Review \u00a7 6 ElektroG (Elektro- und Elektronikger\u00e4tegesetz) obligations and obtain or demonstrate compliance before 2024-01-01.",
+    "alert": {
+      "channel": "email",
+      "to": "+49 621 002020",
+      "message": "ThermoControl Industrie GmbH: your IndusTherm Controller must comply with Reg (EU) ElektroG-DE-2021 \u2014 \u00a7 6 ElektroG (Elektro- und Elektronikger\u00e4tegesetz) by 2024-01-01. Source: https://www.stiftung-ear.de/en/manufacturer-obligations/registration"
+    }
+  },
+  {
+    "rule_id": "ELEKTROG-2021-S6-WEEE-DE",
+    "company": "NomadPower Outdoor AB",
+    "partner_id": "P021",
+    "product_id": "P021-A",
+    "product": "TrailCell 512 Power Station",
+    "regulation": "Reg (EU) ElektroG-DE-2021 \u2014 \u00a7 6 ElektroG (Elektro- und Elektronikger\u00e4tegesetz)",
+    "requirement": "Any manufacturer or authorised representative that places electrical or electronic equipment (EEE) on the German market must register with the stiftung ear (Gemeinsames R\u00fccknahmesystem) before the first placing on the market. Registration must state the equipment category (ElektroG Annex I), brand, and annual quantity placed. Unregistered EEE may not be sold in Germany.",
+    "source_url": "https://www.stiftung-ear.de/en/manufacturer-obligations/registration",
+    "gap": "'TrailCell 512 Power Station' is sold in a market covered by ELEKTROG-2021-S6-WEEE-DE but the required compliance has not been demonstrated.",
+    "deadline": "2024-01-01",
+    "severity": "high",
+    "recommended_action": "Review \u00a7 6 ElektroG (Elektro- und Elektronikger\u00e4tegesetz) obligations and obtain or demonstrate compliance before 2024-01-01.",
+    "alert": {
+      "channel": "sms",
+      "to": "+46 31 002121",
+      "message": "NomadPower Outdoor AB: your TrailCell 512 Power Station must comply with Reg (EU) ElektroG-DE-2021 \u2014 \u00a7 6 ElektroG (Elektro- und Elektronikger\u00e4tegesetz) by 2024-01-01. Source: https://www.stiftung-ear.de/en/manufacturer-obligations/registration"
+    }
+  },
+  {
+    "rule_id": "ELEKTROG-2021-S6-WEEE-DE",
+    "company": "NomadPower Outdoor AB",
+    "partner_id": "P021",
+    "product_id": "P021-B",
+    "product": "BaseCell 2.0kWh Industrial",
+    "regulation": "Reg (EU) ElektroG-DE-2021 \u2014 \u00a7 6 ElektroG (Elektro- und Elektronikger\u00e4tegesetz)",
+    "requirement": "Any manufacturer or authorised representative that places electrical or electronic equipment (EEE) on the German market must register with the stiftung ear (Gemeinsames R\u00fccknahmesystem) before the first placing on the market. Registration must state the equipment category (ElektroG Annex I), brand, and annual quantity placed. Unregistered EEE may not be sold in Germany.",
+    "source_url": "https://www.stiftung-ear.de/en/manufacturer-obligations/registration",
+    "gap": "'BaseCell 2.0kWh Industrial' is sold in a market covered by ELEKTROG-2021-S6-WEEE-DE but the required compliance has not been demonstrated.",
+    "deadline": "2024-01-01",
+    "severity": "high",
+    "recommended_action": "Review \u00a7 6 ElektroG (Elektro- und Elektronikger\u00e4tegesetz) obligations and obtain or demonstrate compliance before 2024-01-01.",
+    "alert": {
+      "channel": "sms",
+      "to": "+46 31 002121",
+      "message": "NomadPower Outdoor AB: your BaseCell 2.0kWh Industrial must comply with Reg (EU) ElektroG-DE-2021 \u2014 \u00a7 6 ElektroG (Elektro- und Elektronikger\u00e4tegesetz) by 2024-01-01. Source: https://www.stiftung-ear.de/en/manufacturer-obligations/registration"
+    }
+  },
+  {
+    "rule_id": "ELEKTROG-2021-S6-WEEE-DE",
+    "company": "NomadPower Outdoor AB",
+    "partner_id": "P021",
+    "product_id": "P021-C",
+    "product": "PocketCell 99Wh",
+    "regulation": "Reg (EU) ElektroG-DE-2021 \u2014 \u00a7 6 ElektroG (Elektro- und Elektronikger\u00e4tegesetz)",
+    "requirement": "Any manufacturer or authorised representative that places electrical or electronic equipment (EEE) on the German market must register with the stiftung ear (Gemeinsames R\u00fccknahmesystem) before the first placing on the market. Registration must state the equipment category (ElektroG Annex I), brand, and annual quantity placed. Unregistered EEE may not be sold in Germany.",
+    "source_url": "https://www.stiftung-ear.de/en/manufacturer-obligations/registration",
+    "gap": "'PocketCell 99Wh' is sold in a market covered by ELEKTROG-2021-S6-WEEE-DE but the required compliance has not been demonstrated.",
+    "deadline": "2024-01-01",
+    "severity": "high",
+    "recommended_action": "Review \u00a7 6 ElektroG (Elektro- und Elektronikger\u00e4tegesetz) obligations and obtain or demonstrate compliance before 2024-01-01.",
+    "alert": {
+      "channel": "sms",
+      "to": "+46 31 002121",
+      "message": "NomadPower Outdoor AB: your PocketCell 99Wh must comply with Reg (EU) ElektroG-DE-2021 \u2014 \u00a7 6 ElektroG (Elektro- und Elektronikger\u00e4tegesetz) by 2024-01-01. Source: https://www.stiftung-ear.de/en/manufacturer-obligations/registration"
+    }
+  },
+  {
+    "rule_id": "ELEKTROG-2021-S6-WEEE-DE",
+    "company": "KidVision Cams SARL",
+    "partner_id": "P022",
+    "product_id": "P022-A",
+    "product": "LittleView Baby Monitor",
+    "regulation": "Reg (EU) ElektroG-DE-2021 \u2014 \u00a7 6 ElektroG (Elektro- und Elektronikger\u00e4tegesetz)",
+    "requirement": "Any manufacturer or authorised representative that places electrical or electronic equipment (EEE) on the German market must register with the stiftung ear (Gemeinsames R\u00fccknahmesystem) before the first placing on the market. Registration must state the equipment category (ElektroG Annex I), brand, and annual quantity placed. Unregistered EEE may not be sold in Germany.",
+    "source_url": "https://www.stiftung-ear.de/en/manufacturer-obligations/registration",
+    "gap": "'LittleView Baby Monitor' is sold in a market covered by ELEKTROG-2021-S6-WEEE-DE but the required compliance has not been demonstrated.",
+    "deadline": "2024-01-01",
+    "severity": "high",
+    "recommended_action": "Review \u00a7 6 ElektroG (Elektro- und Elektronikger\u00e4tegesetz) obligations and obtain or demonstrate compliance before 2024-01-01.",
+    "alert": {
+      "channel": "email",
+      "to": "+33 5 00002222",
+      "message": "KidVision Cams SARL: your LittleView Baby Monitor must comply with Reg (EU) ElektroG-DE-2021 \u2014 \u00a7 6 ElektroG (Elektro- und Elektronikger\u00e4tegesetz) by 2024-01-01. Source: https://www.stiftung-ear.de/en/manufacturer-obligations/registration"
+    }
+  },
+  {
+    "rule_id": "ELEKTROG-2021-S6-WEEE-DE",
+    "company": "KidVision Cams SARL",
+    "partner_id": "P022",
+    "product_id": "P022-B",
+    "product": "KidCam Watch",
+    "regulation": "Reg (EU) ElektroG-DE-2021 \u2014 \u00a7 6 ElektroG (Elektro- und Elektronikger\u00e4tegesetz)",
+    "requirement": "Any manufacturer or authorised representative that places electrical or electronic equipment (EEE) on the German market must register with the stiftung ear (Gemeinsames R\u00fccknahmesystem) before the first placing on the market. Registration must state the equipment category (ElektroG Annex I), brand, and annual quantity placed. Unregistered EEE may not be sold in Germany.",
+    "source_url": "https://www.stiftung-ear.de/en/manufacturer-obligations/registration",
+    "gap": "'KidCam Watch' is sold in a market covered by ELEKTROG-2021-S6-WEEE-DE but the required compliance has not been demonstrated.",
+    "deadline": "2024-01-01",
+    "severity": "high",
+    "recommended_action": "Review \u00a7 6 ElektroG (Elektro- und Elektronikger\u00e4tegesetz) obligations and obtain or demonstrate compliance before 2024-01-01.",
+    "alert": {
+      "channel": "email",
+      "to": "+33 5 00002222",
+      "message": "KidVision Cams SARL: your KidCam Watch must comply with Reg (EU) ElektroG-DE-2021 \u2014 \u00a7 6 ElektroG (Elektro- und Elektronikger\u00e4tegesetz) by 2024-01-01. Source: https://www.stiftung-ear.de/en/manufacturer-obligations/registration"
+    }
+  }
+]
