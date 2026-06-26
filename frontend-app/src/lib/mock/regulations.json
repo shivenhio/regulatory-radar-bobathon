@@ -1,0 +1,74 @@
+[
+  {
+    "id": "r-eu-2023-1542",
+    "reference": "EU 2023/1542",
+    "title": "EU Batteries Regulation",
+    "family": "battery",
+    "status": "due",
+    "deadline": "2025-08-18",
+    "sourceUrls": [
+      "https://eur-lex.europa.eu/eli/reg/2023/1542/oj",
+      "https://environment.ec.europa.eu/topics/waste-and-recycling/batteries-and-accumulators_en"
+    ],
+    "summary": "Comprehensive framework covering sustainability, labelling, due diligence and battery passport requirements for industrial, EV, portable and LMT batteries.",
+    "articles": [
+      { "ref": "Art. 11", "title": "Removability and replaceability", "deadline": "2027-02-18", "description": "Portable batteries in appliances must be readily removable and replaceable by end users." },
+      { "ref": "Art. 13", "title": "Labelling and information requirements", "deadline": "2026-08-18", "description": "Mandatory labelling including capacity, separate-collection symbol and chemistry information." },
+      { "ref": "Art. 77", "title": "Battery passport", "deadline": "2027-02-18", "description": "Digital battery passport for LMT, industrial >2 kWh and EV batteries with carbon footprint, due diligence and material composition." }
+    ]
+  },
+  {
+    "id": "r-reach-annex-xvii",
+    "reference": "REACH Annex XVII",
+    "title": "REACH — Restrictions on the manufacture, placing on the market and use of certain substances",
+    "family": "reach",
+    "status": "due",
+    "deadline": "2024-11-05",
+    "sourceUrls": ["https://echa.europa.eu/substances-restricted-under-reach"],
+    "summary": "Restrictions list under REACH Regulation EC 1907/2006. Includes lead, cadmium, phthalates and other SVHC entries.",
+    "articles": [
+      { "ref": "Entry 51", "title": "Phthalates in articles", "description": "DEHP, BBP, DBP, DIBP restricted in articles placed on the market." },
+      { "ref": "Entry 63", "title": "Lead and its compounds", "description": "Restricted in jewellery and articles supplied to the general public above 0.05% by weight." }
+    ]
+  },
+  {
+    "id": "r-rohs-2011-65",
+    "reference": "RoHS 2011/65",
+    "title": "Restriction of Hazardous Substances Directive",
+    "family": "rohs",
+    "status": "due",
+    "deadline": "2025-03-10",
+    "sourceUrls": ["https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:32011L0065"],
+    "summary": "Restricts the use of ten hazardous substances (incl. Pb, Cd, Hg, Cr-VI, PBB, PBDE, DEHP, BBP, DBP, DIBP) in electrical and electronic equipment.",
+    "articles": [
+      { "ref": "Art. 4", "title": "Prevention", "description": "Member States shall ensure EEE placed on the market does not contain the restricted substances above the tolerated maxima." },
+      { "ref": "Annex II", "title": "Restricted substances", "description": "Maximum concentration values tolerated by weight in homogeneous materials." }
+    ]
+  },
+  {
+    "id": "r-weee-2012-19",
+    "reference": "WEEE 2012/19",
+    "title": "Waste Electrical and Electronic Equipment Directive",
+    "family": "weee",
+    "status": "upcoming",
+    "deadline": "2025-12-14",
+    "sourceUrls": ["https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:32012L0019"],
+    "summary": "Producer responsibility for collection, recycling and recovery of electrical waste. Annual mass-balance reports per category.",
+    "articles": [
+      { "ref": "Art. 5", "title": "Separate collection", "description": "Establishment of collection systems for WEEE from private households." }
+    ]
+  },
+  {
+    "id": "r-scip",
+    "reference": "SCIP Database",
+    "title": "Substances of Concern In articles, as such or in complex objects (Products)",
+    "family": "reach",
+    "status": "upcoming",
+    "deadline": "2025-02-22",
+    "sourceUrls": ["https://echa.europa.eu/scip-database"],
+    "summary": "Notification obligation for suppliers of articles containing SVHCs above 0.1% w/w on the EU market.",
+    "articles": [
+      { "ref": "v2.1", "title": "Schema update", "description": "Updated submission schema with mandatory concentration ranges and material categories." }
+    ]
+  }
+]

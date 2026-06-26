@@ -1,0 +1,10 @@
+[
+  { "id": "p-nv-1", "companyId": "c-nordvolt", "name": "High-Cap Li-Ion Cell B2", "category": "Battery cell", "batteryType": "Li-Ion NMC", "substances": ["Lithium", "Cobalt", "Nickel"], "markets": ["SE", "DE", "FR"] },
+  { "id": "p-nv-2", "companyId": "c-nordvolt", "name": "Modular Pack MP-12", "category": "Battery pack", "batteryType": "Li-Ion LFP", "substances": ["Lithium", "Iron", "Phosphate"], "markets": ["SE", "DE"] },
+  { "id": "p-lc-1", "companyId": "c-lumencircuit", "name": "RF Control Module X4", "category": "PCB assembly", "substances": ["Lead (Pb)", "Phthalates"], "markets": ["DE", "AT"] },
+  { "id": "p-lc-2", "companyId": "c-lumencircuit", "name": "Optic-Gate Series 9", "category": "Optoelectronic module", "substances": ["Cadmium", "Lead (Pb)"], "markets": ["DE", "CH"] },
+  { "id": "p-sp-1", "companyId": "c-solderpoint", "name": "SAC305 Flux Core Wire", "category": "Solder", "substances": ["Tin", "Silver", "Copper"], "markets": ["FI", "EE", "SE"] },
+  { "id": "p-tp-1", "companyId": "c-terapower", "name": "DC/AC Inverter Pro", "category": "Power conversion", "substances": ["Lead (Pb)", "Brominated flame retardants"], "markets": ["NL", "BE", "DE"] },
+  { "id": "p-ef-1", "companyId": "c-ecoflow", "name": "Precision Logic Gate G2", "category": "Semiconductor", "substances": ["Gallium", "Arsenic"], "markets": ["IE", "UK", "DE"] },
+  { "id": "p-bs-1", "companyId": "c-balticsemi", "name": "MCU-8051-A Ceramic", "category": "Microcontroller", "substances": ["Phthalates (DEHP)", "Lead (Pb)"], "markets": ["LT", "LV", "PL"] }
+]

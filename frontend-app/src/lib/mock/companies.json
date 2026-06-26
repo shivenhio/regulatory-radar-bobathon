@@ -1,0 +1,50 @@
+[
+  {
+    "id": "c-nordvolt",
+    "name": "NordVolt AB",
+    "markets": ["SE", "DE", "FR"],
+    "contacts": [{ "name": "Ingrid Larsson", "email": "ingrid@nordvolt.se", "phone": "+46 70 555 1212" }],
+    "preferredChannel": "sms",
+    "preferredLanguage": "en"
+  },
+  {
+    "id": "c-lumencircuit",
+    "name": "LumenCircuit GmbH",
+    "markets": ["DE", "AT", "CH"],
+    "contacts": [{ "name": "Stefan Becker", "email": "s.becker@lumencircuit.de", "phone": "+49 30 1234 567" }],
+    "preferredChannel": "whatsapp",
+    "preferredLanguage": "de"
+  },
+  {
+    "id": "c-solderpoint",
+    "name": "SolderPoint Oy",
+    "markets": ["FI", "EE", "SE"],
+    "contacts": [{ "name": "Aino Virtanen", "email": "aino@solderpoint.fi" }],
+    "preferredChannel": "email",
+    "preferredLanguage": "en"
+  },
+  {
+    "id": "c-terapower",
+    "name": "TeraPower Systems",
+    "markets": ["NL", "BE", "DE"],
+    "contacts": [{ "name": "Joost de Vries", "email": "joost@terapower.nl", "phone": "+31 6 1234 5678" }],
+    "preferredChannel": "sms",
+    "preferredLanguage": "en"
+  },
+  {
+    "id": "c-ecoflow",
+    "name": "EcoFlow Ltd",
+    "markets": ["IE", "UK", "DE"],
+    "contacts": [{ "name": "Niamh O'Connor", "email": "niamh@ecoflow.ie" }],
+    "preferredChannel": "email",
+    "preferredLanguage": "en"
+  },
+  {
+    "id": "c-balticsemi",
+    "name": "Baltic Semi",
+    "markets": ["LT", "LV", "PL"],
+    "contacts": [{ "name": "Marek Kowalski", "email": "marek@balticsemi.lt", "phone": "+370 600 12345" }],
+    "preferredChannel": "whatsapp",
+    "preferredLanguage": "en"
+  }
+]

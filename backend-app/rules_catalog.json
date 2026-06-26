@@ -1,0 +1,122 @@
+{
+  "$schema": {
+    "$comment": "RegulationRule — JSON schema for any product-related EU requirement. Every rule in the 'rules' array must conform to this shape.",
+    "type": "object",
+    "required": [
+      "rule_id",
+      "regulation_id",
+      "article",
+      "requirement_text",
+      "scope",
+      "deadline",
+      "source_url"
+    ],
+    "properties": {
+      "rule_id": {
+        "type": "string",
+        "description": "Unique, stable identifier for this rule entry (e.g. 'BATT-2023-ART77-LMT')."
+      },
+      "regulation_id": {
+        "type": "string",
+        "description": "Official CELEX / short-form identifier of the legislative act (e.g. '32023R1542')."
+      },
+      "article": {
+        "type": "string",
+        "description": "Article or section within the regulation that creates the obligation."
+      },
+      "requirement_text": {
+        "type": "string",
+        "description": "Plain-English summary of the requirement as stated in the official text."
+      },
+      "scope": {
+        "type": "object",
+        "description": "Conditions that must all be true for this rule to apply to a product.",
+        "properties": {
+          "markets":       { "type": "array", "items": { "type": "string" } },
+          "category":      { "type": "string" },
+          "battery_type":  { "type": ["string", "null"] },
+          "product_types": { "type": ["array", "null"], "items": { "type": "string" } },
+          "notes":         { "type": ["string", "null"] }
+        },
+        "required": ["markets", "category"]
+      },
+      "deadline": {
+        "type": "string",
+        "format": "date",
+        "description": "ISO-8601 date by which compliance must be achieved (YYYY-MM-DD)."
+      },
+      "source_url": {
+        "type": "string",
+        "format": "uri",
+        "description": "Canonical URL of the official source (EUR-Lex ELI, national register, etc.)."
+      }
+    }
+  },
+
+  "rules": [
+    {
+      "rule_id":          "BATT-2023-ART77-LMT",
+      "regulation_id":    "32023R1542",
+      "article":          "Article 77",
+      "requirement_text": "Light-means-of-transport (LMT) batteries placed on the EU market must carry a digital battery passport accessible via a QR code or other data carrier, containing chemistry, capacity, carbon footprint, and lifecycle data.",
+      "scope": {
+        "markets":      ["EU"],
+        "category":     "emobility_battery",
+        "battery_type": "lmt",
+        "product_types": null,
+        "notes": "Applies to e-scooter, e-bike, and other LMT battery packs with a capacity > 2 Wh. Excludes batteries in vehicles covered by type-approval."
+      },
+      "deadline":   "2027-02-18",
+      "source_url": "https://eur-lex.europa.eu/eli/reg/2023/1542/oj"
+    },
+
+    {
+      "rule_id":          "PPWR-2025-ART7-RECYCLED-CONTENT",
+      "regulation_id":    "32025R0040",
+      "article":          "Article 7",
+      "requirement_text": "Plastic packaging placed on the EU market must meet mandatory minimum recycled-content targets. For contact-sensitive plastic packaging (e.g. consumer electronics retail packaging) the initial target is 10 % recycled content by 2030, rising to 50 % by 2040. Producers must declare recycled content on the packaging or a technical file available on request.",
+      "scope": {
+        "markets":       ["EU"],
+        "category":      "packaging",
+        "battery_type":  null,
+        "product_types": [
+          "plastic_retail_packaging",
+          "plastic_transport_packaging",
+          "plastic_consumer_packaging"
+        ],
+        "notes": "Covers any economic operator placing packaged goods on the EU market. Recycled-content percentages are per packaging material class (plastic). The exact per-format percentages are set via delegated acts under Art. 7(10)."
+      },
+      "deadline":   "2030-01-01",
+      "source_url": "https://eur-lex.europa.eu/eli/reg/2025/40/oj"
+    },
+
+    {
+      "rule_id":          "ELEKTROG-2021-S6-WEEE-DE",
+      "regulation_id":    "ElektroG-DE-2021",
+      "article":          "§ 6 ElektroG (Elektro- und Elektronikgerätegesetz)",
+      "requirement_text": "Any manufacturer or authorised representative that places electrical or electronic equipment (EEE) on the German market must register with the stiftung ear (Gemeinsames Rücknahmesystem) before the first placing on the market. Registration must state the equipment category (ElektroG Annex I), brand, and annual quantity placed. Unregistered EEE may not be sold in Germany.",
+      "scope": {
+        "markets":       ["DE"],
+        "category":      "all_eee",
+        "battery_type":  null,
+        "product_types": [
+          "led_lighting",
+          "power_supply",
+          "battery_pack",
+          "audio",
+          "smart_home",
+          "wearable",
+          "display",
+          "networking",
+          "appliance",
+          "printer_3d",
+          "drone",
+          "emobility_battery"
+        ],
+        "notes": "Germany transposes WEEE Directive 2012/19/EU via ElektroG (amended 2021). Registration is per brand and per category. Foreign companies without a German entity must appoint an authorised representative. See stiftung ear (stiftung-ear.de) for the registration portal and registered-producer lookup."
+      },
+      "deadline":   "2024-01-01",
+      "source_url": "https://eur-lex.europa.eu/eli/dir/2012/19/oj"
+    }
+  ]
+}

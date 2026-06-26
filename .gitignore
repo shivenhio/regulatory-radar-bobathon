@@ -1,0 +1,48 @@
+# ── OS & editor ──────────────────────────────────────────────
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/*
+!.vscode/extensions.json
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
+
+# ── Python (backend-app/) ────────────────────────────────────
+__pycache__/
+*.py[cod]
+*$py.class
+*.pyo
+.venv/
+venv/
+env/
+*.egg-info/
+dist/
+build/
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+
+# ── Node / frontend (frontend-app/) ─────────────────────────
+node_modules/
+frontend-app/dist/
+frontend-app/dist-ssr/
+frontend-app/.output/
+frontend-app/.vinxi/
+frontend-app/.tanstack/
+frontend-app/.nitro/
+frontend-app/.wrangler/
+frontend-app/.dev.vars
+*.local
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+lerna-debug.log*
+
+# ── Secrets — never commit real .env files ──────────────────
+.env
+.env.*
+!.env.example

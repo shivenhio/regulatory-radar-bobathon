@@ -1,0 +1,53 @@
+{
+  "regulation_id": "reach_svhc",
+  "regulation_family": "REACH",
+  "reference": "REACH Regulation (EC) 1907/2006, Art. 59",
+  "title": "REACH SVHC Candidate List",
+  "source_url": "https://echa.europa.eu/candidate-list-table",
+  "fetched_date": "2026-06-26",
+  "live_fetch": false,
+  "llm_extracted": true,
+  "llm_summary": "Electronics manufacturers selling in the EU are obligated to notify the European Chemicals Agency (ECHA) under Article 33 of the REACH regulation if their products contain Substances of Very High Concern (SVHCs) above a 0.1% weight-by-weight (w/w) threshold. This notification duty is fulfilled by filing information in the Substances of Concern In articles, as such or in complex objects (Products) (SCIP) database. The current obligation to file in the SCIP database has been in effect since January 5, 2021, for products containing SVHCs on the candidate list, with no specific deadline for compliance other than the requirement to file within six months of the SVHC being added to the candidate list for new additions.",
+  "svhc_substances": [
+    "BPA",
+    "DEHP",
+    "TBBPA",
+    "PFAS_PFHxA",
+    "MCCP",
+    "PFOA",
+    "PFOS",
+    "DBP",
+    "BBP",
+    "DIBP"
+  ],
+  "obligations": [
+    {
+      "id": "reach_svhc",
+      "article": "Art. 7(2) + Art. 33 REACH",
+      "name": "REACH SVHC screening and notification",
+      "summary": "Electronics manufacturers selling in the EU are obligated to notify the European Chemicals Agency (ECHA) under Article 33 of the REACH regulation if their products contain Substances of Very High Concern (SVHCs) above a 0.1% weight-by-weight (w/w) threshold. This notification duty is fulfilled by filing information in the Substances of Concern In articles, as such or in complex objects (Products) (SCIP) database. The current obligation to file in the SCIP database has been in effect since January 5, 2021, for products containing SVHCs on the candidate list, with no specific deadline for compliance other than the requirement to file within six months of the SVHC being added to the candidate list for new additions.",
+      "deadline": "2026-10-30",
+      "severity": "medium",
+      "scope": {
+        "markets": [
+          "EU"
+        ],
+        "substances": [
+          "BPA",
+          "DEHP",
+          "TBBPA",
+          "PFAS_PFHxA",
+          "MCCP",
+          "PFOA",
+          "PFOS",
+          "DBP",
+          "BBP",
+          "DIBP"
+        ]
+      },
+      "gap": "SVHC screening and customer/SCIP duties may apply.",
+      "action": "Screen articles and file SCIP notifications where required.",
+      "llm_extracted": true
+    }
+  ]
+}

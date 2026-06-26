@@ -1,0 +1,8 @@
+[
+  { "id": "ev-1", "timestamp": "2024-10-02T07:45:00Z", "kind": "rule_updated", "summary": "EU 2023/1542 Art. 77 — guidance document v1.2 published.", "refs": { "regulationId": "r-eu-2023-1542" } },
+  { "id": "ev-2", "timestamp": "2024-10-01T09:12:00Z", "kind": "alert_sent", "summary": "SMS dispatched to NordVolt AB regarding High-Cap Li-Ion Cell B2.", "refs": { "companyId": "c-nordvolt", "productId": "p-nv-1", "findingId": "f-1" } },
+  { "id": "ev-3", "timestamp": "2024-09-30T15:20:00Z", "kind": "gap_found", "summary": "New gap detected: REACH Entry 51 phthalates for LumenCircuit GmbH.", "refs": { "companyId": "c-lumencircuit", "productId": "p-lc-1", "findingId": "f-2" } },
+  { "id": "ev-4", "timestamp": "2024-09-28T10:00:00Z", "kind": "rule_added", "summary": "SCIP Database v2.1 schema added to tracker.", "refs": { "regulationId": "r-scip" } },
+  { "id": "ev-5", "timestamp": "2024-09-22T14:05:00Z", "kind": "alert_sent", "summary": "SMS dispatched to TeraPower Systems about DC/AC Inverter Pro packaging.", "refs": { "companyId": "c-terapower", "productId": "p-tp-1", "findingId": "f-4" } },
+  { "id": "ev-6", "timestamp": "2024-08-15T08:30:00Z", "kind": "gap_found", "summary": "DEHP exceedance detected at Baltic Semi MCU-8051-A Ceramic.", "refs": { "companyId": "c-balticsemi", "productId": "p-bs-1", "findingId": "f-6" } }
+]
