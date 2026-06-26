@@ -1,0 +1,38 @@
+[
+  {
+    "company": "RideVolt Mobility GmbH",
+    "partner_id": "P013",
+    "product_id": "P013-A",
+    "product": "e-Scooter Battery Pack 280Wh",
+    "regulation": "Regulation (EU) 2023/1542 \u2014 Battery Regulation \u2014 battery passport (Article 77)",
+    "requirement": "Light-means-of-transport (LMT) batteries placed on the EU market must carry a digital battery passport accessible via a QR code or other data carrier, containing chemistry, capacity, carbon footprint, and lifecycle data.",
+    "source_url": "https://eur-lex.europa.eu/eli/reg/2023/1542/oj",
+    "gap": "LMT battery 'e-Scooter Battery Pack 280Wh' is sold in the EU with no battery passport / data carrier.",
+    "deadline": "2027-02-18",
+    "severity": "high",
+    "recommended_action": "Create the battery passport (QR + data carrier) and link it before the deadline.",
+    "alert": {
+      "channel": "sms",
+      "to": "+49 711 001313",
+      "message": "RideVolt Mobility GmbH: your e-Scooter Battery Pack 280Wh needs an EU battery passport by 2027-02-18 (Regulation (EU) 2023/1542). Set up the QR/data carrier. Source: https://eur-lex.europa.eu/eli/reg/2023/1542/oj"
+    }
+  },
+  {
+    "company": "RideVolt Mobility GmbH",
+    "partner_id": "P013",
+    "product_id": "P013-B",
+    "product": "eBike Battery 504Wh",
+    "regulation": "Regulation (EU) 2023/1542 \u2014 Battery Regulation \u2014 battery passport (Article 77)",
+    "requirement": "Light-means-of-transport (LMT) batteries placed on the EU market must carry a digital battery passport accessible via a QR code or other data carrier, containing chemistry, capacity, carbon footprint, and lifecycle data.",
+    "source_url": "https://eur-lex.europa.eu/eli/reg/2023/1542/oj",
+    "gap": "LMT battery 'eBike Battery 504Wh' is sold in the EU with no battery passport / data carrier.",
+    "deadline": "2027-02-18",
+    "severity": "high",
+    "recommended_action": "Create the battery passport (QR + data carrier) and link it before the deadline.",
+    "alert": {
+      "channel": "sms",
+      "to": "+49 711 001313",
+      "message": "RideVolt Mobility GmbH: your eBike Battery 504Wh needs an EU battery passport by 2027-02-18 (Regulation (EU) 2023/1542). Set up the QR/data carrier. Source: https://eur-lex.europa.eu/eli/reg/2023/1542/oj"
+    }
+  }
+]
