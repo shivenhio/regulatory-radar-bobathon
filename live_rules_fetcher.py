@@ -21,6 +21,7 @@ import re
 import warnings
 from datetime import date
 from pathlib import Path
+from typing import Optional
 
 import requests
 from bs4 import BeautifulSoup, XMLParsedAsHTMLWarning
@@ -76,7 +77,7 @@ KNOWN_IDS = {
 # HTTP fetch
 # ---------------------------------------------------------------------------
 
-def fetch(url: str, timeout: int = 30) -> str | None:
+def fetch(url: str, timeout: int = 30) -> Optional[str]:
     try:
         r = requests.get(url, headers=HEADERS, timeout=timeout)
         if r.status_code == 200:
@@ -108,7 +109,7 @@ def extract_text(html: str, max_chars: int = 12000) -> str:
 # Groq LLM extraction
 # ---------------------------------------------------------------------------
 
-def extract_obligations_with_llm(regulation_text: str, regulation_name: str, source_url: str) -> list[dict]:
+def extract_obligations_with_llm(regulation_text: str, regulation_name: str, source_url: str) -> list:
     """
     Send the regulation text to Groq and ask it to extract structured
     compliance obligations as JSON.
@@ -168,7 +169,7 @@ Extract all compliance obligations from this text as a JSON array."""
         return []
 
 
-def merge_with_fallback(llm_obligations: list[dict], fallback_obligations: list[dict]) -> list[dict]:
+def merge_with_fallback(llm_obligations: list, fallback_obligations: list) -> list:
     """
     Use LLM-extracted obligations where available; fill gaps with fallbacks.
     Matches by id where possible.

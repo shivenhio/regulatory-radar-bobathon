@@ -116,7 +116,7 @@
         "notes": "Germany transposes WEEE Directive 2012/19/EU via ElektroG (amended 2021). Registration is per brand and per category. Foreign companies without a German entity must appoint an authorised representative. See stiftung ear (stiftung-ear.de) for the registration portal and registered-producer lookup."
       },
       "deadline":   "2024-01-01",
-      "source_url": "https://www.stiftung-ear.de/en/manufacturer-obligations/registration"
+      "source_url": "https://eur-lex.europa.eu/eli/dir/2012/19/oj"
     }
   ]
 }

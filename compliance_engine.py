@@ -375,10 +375,14 @@ if __name__ == "__main__":
         # 4. Assess
         generated_alerts = engine.generate_alerts(product_records)
 
-        # 5. Write results — both files so alerts.py can consume all_findings.json
+        # 5. Write results.
+        # CANONICAL PIPELINE: all_findings.json is owned by multi_gap.py.
+        # compliance_engine.py writes to alerts_engine.json only, so the two
+        # pipelines do not collide. Feed alerts_engine.json into alerts.py if
+        # you want to send the engine's broader rule set instead of the catalog.
         output = json.dumps(generated_alerts, indent=2, ensure_ascii=False)
         Path("alerts.json").write_text(output, encoding="utf-8")
-        Path("all_findings.json").write_text(output, encoding="utf-8")
+        Path("alerts_engine.json").write_text(output, encoding="utf-8")
 
         # 6. Print summary
         live_alerts = sum(1 for a in generated_alerts if a.get("live_source"))
